@@ -12,7 +12,7 @@ public class RuletaPersonajes : MonoBehaviour {
 	//variables Para La Adaptacion de la Ruleta
 	private float Rueda,Grados,Angulo,MirarAngulo;
 	private float X,Z;
-	public float Distancia;
+	public float Radio;
 
 	//Variables Para que los personajes siempre Miren a la camara
 	Vector3 Mirar;
@@ -28,8 +28,8 @@ public class RuletaPersonajes : MonoBehaviour {
 		for (int i = 0; i < Personajes.Length; i++) {
 			
 			Debug.Log (Angulo);
-			X =  Mathf.Cos(Angulo * Mathf.Deg2Rad) * Distancia;
-			Z =	Mathf.Sin(Angulo * Mathf.Deg2Rad) * Distancia;
+			X =  Mathf.Cos(Angulo * Mathf.Deg2Rad) * Radio;
+			Z =	Mathf.Sin(Angulo * Mathf.Deg2Rad) * Radio;
 
 			Angulo += Grados;
 
@@ -60,9 +60,7 @@ public class RuletaPersonajes : MonoBehaviour {
 
 
 	}
-
-
-
+		
 	public void Izquierda(){
 
 		//transform.Rotate(Vector3.RotateTowards(new Vector3(transform.rotation.x,transform.rotation.y,transform.rotation.z),new Vector3(transform.rotation.x,transform.rotation.y + Grados,transform.rotation.z),100 * Time.deltaTime,1));
