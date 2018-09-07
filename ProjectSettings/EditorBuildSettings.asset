@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/EscenaMenu.unity
+    guid: d460f6c568b5e2548885d7eafa096e38
+  - enabled: 1
+    path: Assets/Scenes/EscenaSeleccionPersonajes.unity
+    guid: b1c11aad0d158144db24bf81c443ecea
+  - enabled: 1
+    path: Assets/Scenes/EscenaTienda.unity
+    guid: 6e624f3c5db60714781164b7b40fd50a
+  - enabled: 1
+    path: Assets/Scenes/EscenaMapaHistoria.unity
+    guid: 276433c7f812d4a4ca214cc3ed4c9b5f
+  - enabled: 1
+    path: Assets/Scenes/EscenaSeleccionPersonajes2.unity
+    guid: fd3dc86a3c0422a40bb44ece2b6b6262
+  - enabled: 1
+    path: Assets/Scenes/EscenaMapaSupervivencia.unity
+    guid: b6d12e8e2b47c38419d34fa3eead23f1
+  m_configObjects: {}
