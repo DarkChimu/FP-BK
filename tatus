@@ -1,0 +1,83 @@
+[33mcommit 5ec54f28b75d70d4fa40a29728c27a3f677e3fc5[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Unity64 <unitydeveloper64@gmail.com>
+Date:   Sun Sep 9 15:07:43 2018 +0200
+
+    Scrip de rafagas enemigas
+
+[33mcommit be7f67f273dd747d0616b488f21cc26261dfb581[m
+Author: Unity64 <unitydeveloper64@gmail.com>
+Date:   Sat Sep 8 10:30:38 2018 +0200
+
+    cambios en el boton tienda, menu de pausa implementado en ambos modos, fondo ajustado a la pantalla siempre y he añadido las imagenes de monedas de revivir en la tienda
+
+[33mcommit 4e470a3d75d0558cd9eef3a4e538b26e16967fff[m
+Author: DeividShadow <jsalazarbenavente2014@gmail.com>
+Date:   Fri Sep 7 17:03:25 2018 -0500
+
+    En la escena ESCENASELECCIONPERSONAJES: Implementacion de 2 sprites nuevos y Solucion de la ruleta.
+
+[33mcommit 66fd40788e992eab61639ef1eaf956cfe65c9619[m
+Author: Darkie64 <darkchimu@hotmail.com>
+Date:   Fri Sep 7 11:27:59 2018 -0400
+
+    Nueva version para clonar
+
+[33mcommit 10854fd20c50400b9c11e156ecba5859bbbf2ecf[m
+Author: Darkie64 <darkchimu@hotmail.com>
+Date:   Fri Sep 7 11:24:00 2018 -0400
+
+    Removiendo Version Antigua
+
+[33mcommit 538053439e66d84bb3ba097adaa8e9d65b62d288[m
+Author: Unity64 <unitydeveloper64@gmail.com>
+Date:   Fri Sep 7 16:48:11 2018 +0200
+
+    ultima version del proyecto para android
+
+[33mcommit e4c6cedf13740a53c232dba257a566859b158c35[m
+Author: Unity64 <unitydeveloper64@gmail.com>
+Date:   Fri Sep 7 15:52:23 2018 +0200
+
+    mensaje para reconocer los cambios hechos en el proyecto
+
+[33mcommit 97548b386411bf44c9bd45ca8d48baf582d2745f[m
+Author: Unity64 <unitydeveloper64@gmail.com>
+Date:   Fri Sep 7 15:48:36 2018 +0200
+
+    nueva prueba
+
+[33mcommit 255e0f4968abf30dc8fb80b984183619c2b2fd3f[m
+Author: Unity64 <unitydeveloper64@gmail.com>
+Date:   Fri Sep 7 15:45:43 2018 +0200
+
+    cambios
+
+[33mcommit 920ce8c12b017b9d0a179680f4a8721325d1f214[m
+Author: Unity64 <unitydeveloper64@gmail.com>
+Date:   Fri Sep 7 15:16:40 2018 +0200
+
+    mensaje para reconocer los cambios hechos en el proyecto
+
+[33mcommit 9d3cc55426491a6cbf51868e6bd968937345daa4[m
+Author: RamonRosario <ManuelMayor126@gmail.com>
+Date:   Thu Sep 6 22:13:14 2018 -0400
+
+    Scripts y actualizaciones realizadas por unity
+
+[33mcommit c7147cdd95c937cf2c0bad0cc18717c8b18764c7[m
+Author: RamonRosario <ManuelMayor126@gmail.com>
+Date:   Thu Sep 6 22:04:02 2018 -0400
+
+    Notepad de hola Mundo
+
+[33mcommit e110f596fbb35185a8ac729465133769124666f6[m
+Author: Darkie64 <darkchimu@hotmail.com>
+Date:   Thu Sep 6 21:17:30 2018 -0400
+
+    Primera Instancia || Bienvenidos - Darkie
+
+[33mcommit 8f90debee75e25478af8a6cb2950e4e1754441dd[m
+Author: Dark <darkchimu@hotmail.com>
+Date:   Thu Sep 6 21:12:48 2018 -0400
+
+    Initial commit
