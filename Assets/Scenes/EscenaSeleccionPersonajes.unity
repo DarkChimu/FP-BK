@@ -821,6 +821,7 @@ GameObject:
   - component: {fileID: 376985965}
   - component: {fileID: 376985967}
   - component: {fileID: 376985966}
+  - component: {fileID: 376985968}
   m_Layer: 5
   m_Name: Jugar
   m_TagString: Untagged
@@ -843,7 +844,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -21.500061, y: -138.4}
+  m_AnchoredPosition: {x: -21.5, y: -138.4}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &376985966
@@ -886,6 +887,17 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 376985964}
   m_CullTransparentMesh: 0
+--- !u!114 &376985968
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 376985964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5fb12aa70ede7b4892fe5b6b30e6621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &382092565
 GameObject:
   m_ObjectHideFlags: 0

@@ -3809,6 +3809,7 @@ GameObject:
   - component: {fileID: 1827357140}
   - component: {fileID: 1827357139}
   - component: {fileID: 1827357141}
+  - component: {fileID: 1827357142}
   m_Layer: 5
   m_Name: Scrips
   m_TagString: Untagged
@@ -3871,6 +3872,18 @@ MonoBehaviour:
   interfazJugador3: {fileID: 1355416452}
   interfaJugador4: {fileID: 1355416451}
   interfazJugador5: {fileID: 1355416450}
+--- !u!114 &1827357142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1827357138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeacccb9320107141b18e5b059560483, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dificultadTomada: 0
 --- !u!1 &1841609573
 GameObject:
   m_ObjectHideFlags: 0

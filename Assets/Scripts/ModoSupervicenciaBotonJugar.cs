@@ -4,11 +4,11 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.SceneManagement;
 
-public class BotonOk2 : MonoBehaviour, IPointerClickHandler {
+public class ModoSupervivenciaBotonJugar : MonoBehaviour, IPointerClickHandler {
 
 
 	public void OnPointerClick (PointerEventData pointerEventData)
 	{
-		SceneManager.LoadScene ("Bar", LoadSceneMode.Single);
+		SceneManager.LoadScene ("SeleccionDeDificultad", LoadSceneMode.Single);
 	}
 }

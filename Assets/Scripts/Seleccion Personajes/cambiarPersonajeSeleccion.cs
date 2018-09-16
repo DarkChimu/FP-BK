@@ -19,10 +19,26 @@ public class cambiarPersonajeSeleccion : MonoBehaviour {
 
 	//PERSONAJES 
 
+	//PERSONAJE1
 	public GameObject Personaje1;
+
+
+	//PERSONAJE2
 	public GameObject Personaje2;
+
+
+
+	//PERSONAJE3
 	public GameObject Personje3;
+
+
+
+	//PERSONAJE4 
 	public GameObject Personaje4;
+
+
+
+	//PERSONAJE5
 	public GameObject Personaje5;
 
 
@@ -63,7 +79,7 @@ public class cambiarPersonajeSeleccion : MonoBehaviour {
 
 
 
-	
+		//PERSONAJE1(DRUIDA)
 		if (NuneroDePersonajeSeleccionado == 1) {
 			Personaje1.SetActive (true);
 		
@@ -76,6 +92,8 @@ public class cambiarPersonajeSeleccion : MonoBehaviour {
 
 
 
+
+		//PERSONAJE2 (CIENTIFICO)
 		if (NuneroDePersonajeSeleccionado == 2) {
 			Personaje2.SetActive (true);
 
@@ -87,7 +105,7 @@ public class cambiarPersonajeSeleccion : MonoBehaviour {
 
 
 
-	
+		//PERSONAJE3 MAFIOSO
 		if (NuneroDePersonajeSeleccionado == 3) {
 			Personje3.SetActive (true);
 
@@ -99,7 +117,7 @@ public class cambiarPersonajeSeleccion : MonoBehaviour {
 
 
 
-	
+		//PERSONAJE4 NATULAEZA
 		if (NuneroDePersonajeSeleccionado == 4) {
 			Personaje4.SetActive (true);
 
@@ -109,7 +127,7 @@ public class cambiarPersonajeSeleccion : MonoBehaviour {
 		}
 			
 
-
+		//PERSONAJE 5 MAGO
 		if (NuneroDePersonajeSeleccionado == 5) {
 			Personaje5.SetActive (true);
 		
