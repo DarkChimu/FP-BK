@@ -29,6 +29,19 @@ public class Botones : MonoBehaviour {
 	static public int ConsumiblesTipo19;
 	static public int ConsumiblesTipo20;
 
+    public GameObject Mochila;
+
+
+
+    public void AbrirMochila() {
+        Mochila.SetActive(true);
+    }
+
+    public void CerrarMochila() {
+        Mochila.SetActive(false);
+    }
+
+
 
 
 	public void ComprarObjeto1(){

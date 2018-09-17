@@ -37,9 +37,31 @@ public class MonedasComunes : MonoBehaviour {
 	static public int NumeroDeConsumibles20;
 
 
+    //numero de pociones en mochila
+    public Text numeroPosionesMarrones;
+    public Text numeroPocionesRosas;
+    public Text numeroPocionesRojas;
+    public Text numeroPocionesAzulOscuro;
+    public Text numeroPocionesGrises;
+    public Text numeroPocionesAzulClaro;
+    public Text numeroPocionesNaranjas;
+    public Text numeroPocionesRosas2;
+    public Text numeroPocionesRojas2;
+    public Text numeroPocionesAzulOscuro2;
+    public Text numeroPocionesAmarillas;
+    public Text numeroPocionRojaMini;
+    public Text numeroPocionAzulMini;
+    public Text numeroPocionAmarillaMini;
+    public Text numeroPocionGrandeRoja;
+    public Text numeroPocionGrandeAzul;
+    public Text numeroPocionGrandeAmarilla;
+    public Text numeroPocionesVerdes;
+    public Text numeroPocionesAzuClaro2;
+    public Text numeroPocionesAmarillasRedondas;
 
 
-	void Update(){
+
+    void Update(){
 		monedasComunesTotales=Botones.monedas;
 		MonedasConmunesTexto.text = " " + monedasComunesTotales; 
 		NumeroDeConsumibles1 = Botones.ConsumiblesTipo1;
@@ -63,7 +85,27 @@ public class MonedasComunes : MonoBehaviour {
 		NumeroDeConsumibles19 = Botones.ConsumiblesTipo19;
 		NumeroDeConsumibles20 = Botones.ConsumiblesTipo20;
 
-	}
+        numeroPosionesMarrones.text = " " + NumeroDeConsumibles9;
+        numeroPocionesRosas.text = " " +  NumeroDeConsumibles10;
+        numeroPocionesRojas.text = " " + NumeroDeConsumibles1;
+        numeroPocionesAzulOscuro.text = " " + NumeroDeConsumibles15;
+        numeroPocionesGrises.text = " " + NumeroDeConsumibles16;
+        numeroPocionesAzulClaro.text = " " + NumeroDeConsumibles17;
+        numeroPocionesNaranjas.text = " " + NumeroDeConsumibles6;
+        numeroPocionesRosas2.text = " " + NumeroDeConsumibles2;
+        numeroPocionesAzulOscuro2.text = " " + NumeroDeConsumibles4;
+        numeroPocionesRojas2.text = " " + NumeroDeConsumibles3;
+        numeroPocionesAmarillas.text = "" + NumeroDeConsumibles11;
+        numeroPocionRojaMini.text = " " + NumeroDeConsumibles12;
+        numeroPocionAzulMini.text = " " + NumeroDeConsumibles13;
+        numeroPocionAmarillaMini.text = " " + NumeroDeConsumibles14;
+        numeroPocionGrandeRoja.text = " " + NumeroDeConsumibles18;
+        numeroPocionGrandeAzul.text = " " + NumeroDeConsumibles19;
+        numeroPocionGrandeAmarilla.text = " " + NumeroDeConsumibles20;
+        numeroPocionesVerdes.text = " " + NumeroDeConsumibles8;
+       numeroPocionesAzuClaro2.text = " " + NumeroDeConsumibles5;
+        numeroPocionesAmarillasRedondas.text = " " + NumeroDeConsumibles7;
+            }
 
 	}
 
