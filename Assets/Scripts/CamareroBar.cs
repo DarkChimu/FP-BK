@@ -7,20 +7,38 @@ public class CamareroBar : MonoBehaviour {
 
 
 
-
+    public GameObject botonHablarCamarero;
 	public GameObject CamareroHablar;
 	public GameObject ConsumiblesParaComprar;
 
 
+
+
 	void OnTriggerEnter2D (Collider2D other){
 		if (other.gameObject.tag == "Player") {
-			CamareroHablar.SetActive (true);
+            botonHablarCamarero.SetActive(true);
+			
 		
 		}
 	}
 
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            botonHablarCamarero.SetActive(false);
 
-	public void CerrarCamareroHablar(){
+
+        }
+    }
+
+    public void CamarreroHablar() {
+        CamareroHablar.SetActive(true);
+       
+    }
+
+
+    public void CerrarCamareroHablar(){
 		CamareroHablar.SetActive (false);
 	}
 

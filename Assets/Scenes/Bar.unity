@@ -393,6 +393,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c403c9d23aa89b44817a0f2a654458f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  botonHablarCamarero: {fileID: 0}
   CamareroHablar: {fileID: 1891605862}
   ConsumiblesParaComprar: {fileID: 0}
 --- !u!1 &90807141
@@ -824,6 +825,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c403c9d23aa89b44817a0f2a654458f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  botonHablarCamarero: {fileID: 0}
   CamareroHablar: {fileID: 1891605862}
   ConsumiblesParaComprar: {fileID: 1820354312}
 --- !u!1 &152997620
@@ -1187,6 +1189,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  TiposDeConsumiblesDiferentesEnEquipo: 0
+  PocionesMarronesEnEquipo: 0
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 0}
 --- !u!1 &182363724
 GameObject:
   m_ObjectHideFlags: 0
@@ -1323,6 +1329,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  TiposDeConsumiblesDiferentesEnEquipo: 0
+  PocionesMarronesEnEquipo: 0
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 0}
 --- !u!1 &193925239
 GameObject:
   m_ObjectHideFlags: 0
@@ -1844,6 +1854,81 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 263006917}
   m_CullTransparentMesh: 0
+--- !u!1 &267783606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 267783607}
+  - component: {fileID: 267783609}
+  - component: {fileID: 267783608}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &267783607
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 267783606}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1045870030}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &267783608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 267783606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Equipar
+--- !u!222 &267783609
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 267783606}
+  m_CullTransparentMesh: 0
 --- !u!1 &276515147
 GameObject:
   m_ObjectHideFlags: 0
@@ -2049,6 +2134,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  TiposDeConsumiblesDiferentesEnEquipo: 0
+  PocionesMarronesEnEquipo: 0
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 0}
 --- !u!1 &334136161
 GameObject:
   m_ObjectHideFlags: 0
@@ -2185,6 +2274,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  TiposDeConsumiblesDiferentesEnEquipo: 0
+  PocionesMarronesEnEquipo: 0
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 0}
 --- !u!1 &344163172
 GameObject:
   m_ObjectHideFlags: 0
@@ -2321,6 +2414,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  TiposDeConsumiblesDiferentesEnEquipo: 0
+  PocionesMarronesEnEquipo: 0
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 0}
 --- !u!1 &357675491
 GameObject:
   m_ObjectHideFlags: 0
@@ -2392,6 +2489,144 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 357675491}
   m_CullTransparentMesh: 0
+--- !u!1 &425662244
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 425662245}
+  - component: {fileID: 425662248}
+  - component: {fileID: 425662247}
+  - component: {fileID: 425662246}
+  - component: {fileID: 425662249}
+  m_Layer: 5
+  m_Name: BotonHablarCamarero
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &425662245
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 425662244}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1087846157}
+  m_Father: {fileID: 1582314966}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 178.3, y: 215}
+  m_SizeDelta: {x: 164.1, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &425662246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 425662244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 425662247}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 425662249}
+        m_MethodName: CamarreroHablar
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &425662247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 425662244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &425662248
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 425662244}
+  m_CullTransparentMesh: 0
+--- !u!114 &425662249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 425662244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c403c9d23aa89b44817a0f2a654458f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  botonHablarCamarero: {fileID: 425662244}
+  CamareroHablar: {fileID: 1891605862}
+  ConsumiblesParaComprar: {fileID: 1820354312}
 --- !u!1 &431277186
 GameObject:
   m_ObjectHideFlags: 0
@@ -2823,6 +3058,150 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  TiposDeConsumiblesDiferentesEnEquipo: 0
+  PocionesMarronesEnEquipo: 0
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 0}
+--- !u!1 &505567392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 505567393}
+  - component: {fileID: 505567397}
+  - component: {fileID: 505567396}
+  - component: {fileID: 505567395}
+  - component: {fileID: 505567394}
+  m_Layer: 5
+  m_Name: BotonActivarPocionMarron
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &505567393
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 505567392}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2037519785}
+  m_Father: {fileID: 1684046554}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &505567394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 505567392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d928b915549f6e40a7b9472cda0955d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mochila: {fileID: 0}
+  TiposDeConsumiblesDiferentesEnEquipo: 0
+  PocionesMarronesEnEquipo: 0
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 2037519786}
+--- !u!114 &505567395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 505567392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 505567396}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 505567394}
+        m_MethodName: UtilizarPocionMarron
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &505567396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 505567392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 4ad090d4aa812f348ad4941ec80d9055, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &505567397
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 505567392}
+  m_CullTransparentMesh: 0
 --- !u!1 &507252657
 GameObject:
   m_ObjectHideFlags: 0
@@ -3322,11 +3701,11 @@ RectTransform:
   - {fileID: 431277187}
   - {fileID: 958350369}
   m_Father: {fileID: 1582314966}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 59}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &573339873
@@ -3341,6 +3720,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 573339871}
+  TiposDeConsumiblesDiferentesEnEquipo: 0
+  PocionesMarronesEnEquipo: 0
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 2037519786}
 --- !u!1 &586443573
 GameObject:
   m_ObjectHideFlags: 0
@@ -3552,6 +3935,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  TiposDeConsumiblesDiferentesEnEquipo: 0
+  PocionesMarronesEnEquipo: 0
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 0}
 --- !u!1 &637264169
 GameObject:
   m_ObjectHideFlags: 0
@@ -3908,6 +4295,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  TiposDeConsumiblesDiferentesEnEquipo: 0
+  PocionesMarronesEnEquipo: 0
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 0}
 --- !u!1 &661526672
 GameObject:
   m_ObjectHideFlags: 0
@@ -4038,7 +4429,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &675831816
 MonoBehaviour:
@@ -4541,6 +4932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c403c9d23aa89b44817a0f2a654458f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  botonHablarCamarero: {fileID: 425662244}
   CamareroHablar: {fileID: 1891605862}
   ConsumiblesParaComprar: {fileID: 1820354312}
 --- !u!61 &719259670
@@ -4621,7 +5013,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 719259668}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.8838182, y: 2.37, z: 2.578717}
+  m_LocalPosition: {x: 0.5, y: 2.37, z: 2.578717}
   m_LocalScale: {x: 4.942219, y: 7.8961287, z: 3.3225}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4698,6 +5090,64 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 737115209}
   m_CullTransparentMesh: 0
+--- !u!1 &760706090
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 760706091}
+  - component: {fileID: 760706092}
+  m_Layer: 5
+  m_Name: EquipoInterfaz
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &760706091
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 760706090}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1684046554}
+  m_Father: {fileID: 1582314966}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1.3, y: -201.3}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &760706092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 760706090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2095666955, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_StartCorner: 2
+  m_StartAxis: 0
+  m_CellSize: {x: 100, y: 100}
+  m_Spacing: {x: 0, y: 0}
+  m_Constraint: 0
+  m_ConstraintCount: 2
 --- !u!1 &774309717
 GameObject:
   m_ObjectHideFlags: 0
@@ -5423,6 +5873,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  TiposDeConsumiblesDiferentesEnEquipo: 0
+  PocionesMarronesEnEquipo: 0
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 0}
 --- !u!1 &864709855
 GameObject:
   m_ObjectHideFlags: 0
@@ -5780,6 +6234,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  TiposDeConsumiblesDiferentesEnEquipo: 0
+  PocionesMarronesEnEquipo: 0
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 0}
 --- !u!1 &957697230
 GameObject:
   m_ObjectHideFlags: 0
@@ -6346,6 +6804,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  TiposDeConsumiblesDiferentesEnEquipo: 0
+  PocionesMarronesEnEquipo: 0
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 0}
 --- !u!1 &1025354505
 GameObject:
   m_ObjectHideFlags: 0
@@ -6490,6 +6952,146 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1028535636}
+  m_CullTransparentMesh: 0
+--- !u!1 &1045870029
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1045870030}
+  - component: {fileID: 1045870034}
+  - component: {fileID: 1045870033}
+  - component: {fileID: 1045870032}
+  - component: {fileID: 1045870031}
+  m_Layer: 5
+  m_Name: BotonEquipar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1045870030
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1045870029}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.79398, y: 0.79398, z: 0.79398}
+  m_Children:
+  - {fileID: 267783607}
+  m_Father: {fileID: 1869430044}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.3, y: -40.7}
+  m_SizeDelta: {x: 102.75, y: 38.28}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1045870031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1045870029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d928b915549f6e40a7b9472cda0955d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mochila: {fileID: 0}
+  TiposDeConsumiblesDiferentesEnEquipo: 0
+  PocionesMarronesEnEquipo: 0
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 2037519786}
+--- !u!114 &1045870032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1045870029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1045870033}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1045870031}
+        m_MethodName: EquiparPocionesMarrones
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1045870033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1045870029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1045870034
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1045870029}
   m_CullTransparentMesh: 0
 --- !u!1 &1062075449
 GameObject:
@@ -6740,6 +7342,85 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  TiposDeConsumiblesDiferentesEnEquipo: 0
+  PocionesMarronesEnEquipo: 0
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 0}
+--- !u!1 &1087846156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1087846157}
+  - component: {fileID: 1087846159}
+  - component: {fileID: 1087846158}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1087846157
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1087846156}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 425662245}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1087846158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1087846156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Hablar con el camarero
+--- !u!222 &1087846159
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1087846156}
+  m_CullTransparentMesh: 0
 --- !u!1 &1117502530
 GameObject:
   m_ObjectHideFlags: 0
@@ -6876,6 +7557,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  TiposDeConsumiblesDiferentesEnEquipo: 0
+  PocionesMarronesEnEquipo: 0
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 0}
 --- !u!1 &1124221789
 GameObject:
   m_ObjectHideFlags: 0
@@ -7404,6 +8089,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  TiposDeConsumiblesDiferentesEnEquipo: 0
+  PocionesMarronesEnEquipo: 0
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 0}
 --- !u!1 &1229438190
 GameObject:
   m_ObjectHideFlags: 0
@@ -7751,7 +8440,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1302921013
 GameObject:
@@ -8462,7 +9151,7 @@ Prefab:
     - target: {fileID: 224401321964653734, guid: ca01f17deda2ef943a0069894141dec0,
         type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 224401321964653734, guid: ca01f17deda2ef943a0069894141dec0,
         type: 2}
@@ -9715,12 +10404,14 @@ RectTransform:
   m_Children:
   - {fileID: 1891605863}
   - {fileID: 1062075450}
-  - {fileID: 1820354313}
   - {fileID: 1587160707}
-  - {fileID: 573339872}
   - {fileID: 1254580878}
+  - {fileID: 425662245}
+  - {fileID: 760706091}
+  - {fileID: 573339872}
+  - {fileID: 1820354313}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -9758,7 +10449,7 @@ RectTransform:
   m_Children:
   - {fileID: 1511133595}
   m_Father: {fileID: 1582314966}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
@@ -9777,6 +10468,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 573339871}
+  TiposDeConsumiblesDiferentesEnEquipo: 0
+  PocionesMarronesEnEquipo: 0
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 2037519786}
 --- !u!114 &1587160709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10149,6 +10844,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  TiposDeConsumiblesDiferentesEnEquipo: 0
+  PocionesMarronesEnEquipo: 0
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 0}
 --- !u!1 &1594665145
 GameObject:
   m_ObjectHideFlags: 0
@@ -10355,6 +11054,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  TiposDeConsumiblesDiferentesEnEquipo: 0
+  PocionesMarronesEnEquipo: 0
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 0}
 --- !u!1 &1638268394
 GameObject:
   m_ObjectHideFlags: 0
@@ -10550,6 +11253,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c403c9d23aa89b44817a0f2a654458f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  botonHablarCamarero: {fileID: 0}
   CamareroHablar: {fileID: 1891605862}
   ConsumiblesParaComprar: {fileID: 1820354312}
 --- !u!114 &1650825691
@@ -10774,6 +11478,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  TiposDeConsumiblesDiferentesEnEquipo: 0
+  PocionesMarronesEnEquipo: 0
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 0}
 --- !u!1 &1675506191
 GameObject:
   m_ObjectHideFlags: 0
@@ -10980,6 +11688,72 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  TiposDeConsumiblesDiferentesEnEquipo: 0
+  PocionesMarronesEnEquipo: 0
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 0}
+--- !u!1 &1684046553
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1684046554}
+  - component: {fileID: 1684046556}
+  - component: {fileID: 1684046555}
+  m_Layer: 5
+  m_Name: PocionesMarronesEquipadas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1684046554
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1684046553}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.34240025, y: 1.7186342, z: 0.53709}
+  m_Children:
+  - {fileID: 505567393}
+  m_Father: {fileID: 760706091}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1684046555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1684046553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
+--- !u!222 &1684046556
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1684046553}
+  m_CullTransparentMesh: 0
 --- !u!1 &1726679846
 GameObject:
   m_ObjectHideFlags: 0
@@ -11050,6 +11824,146 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1726679846}
   m_CullTransparentMesh: 0
+--- !u!1 &1768493974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 1024421346287430, guid: d06fda1bce477ad4c814e8d6ca2f7bb1,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1768493979}
+  - component: {fileID: 1768493978}
+  - component: {fileID: 1768493977}
+  - component: {fileID: 1768493976}
+  - component: {fileID: 1768493975}
+  m_Layer: 0
+  m_Name: PreafDemonio
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1768493975
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 61284878154061646, guid: d06fda1bce477ad4c814e8d6ca2f7bb1,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1768493974}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0022500362, y: -0.021375}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.32, y: 0.48}
+    newSize: {x: 1.28, y: 1.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.108499885, y: 0.43725}
+  m_EdgeRadius: 0
+--- !u!50 &1768493976
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 50568710025312276, guid: d06fda1bce477ad4c814e8d6ca2f7bb1,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1768493974}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &1768493977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 114248588775621086, guid: d06fda1bce477ad4c814e8d6ca2f7bb1,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1768493974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!212 &1768493978
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 212605016242733574, guid: d06fda1bce477ad4c814e8d6ca2f7bb1,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1768493974}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: cacf0536818442940aa5e41a82e8ae05, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1.28, y: 1.28}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &1768493979
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 4315767082051136, guid: d06fda1bce477ad4c814e8d6ca2f7bb1,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1768493974}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.74, y: -1.5991459, z: 0}
+  m_LocalScale: {x: 10.843, y: 10.843, z: 10.843}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1785909064
 GameObject:
   m_ObjectHideFlags: 0
@@ -11249,7 +12163,7 @@ RectTransform:
   - {fileID: 2094174593}
   - {fileID: 1431596859}
   m_Father: {fileID: 1582314966}
-  m_RootOrder: 2
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11607,12 +12521,13 @@ RectTransform:
   m_LocalScale: {x: 0.57392, y: 0.57392, z: 0.57392}
   m_Children:
   - {fileID: 463241202}
+  - {fileID: 1045870030}
   m_Father: {fileID: 573339872}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -168, y: 99.600006}
+  m_AnchoredPosition: {x: -164.4, y: 99.600006}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1869430045
@@ -11842,6 +12757,81 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1968311486}
+  m_CullTransparentMesh: 0
+--- !u!1 &2037519784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2037519785}
+  - component: {fileID: 2037519787}
+  - component: {fileID: 2037519786}
+  m_Layer: 5
+  m_Name: NumeroPocionesMarronesEquipadasText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2037519785
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2037519784}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.3375, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 505567393}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 111, y: -10.43}
+  m_SizeDelta: {x: 56, y: -2.35}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2037519786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2037519784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Button
+--- !u!222 &2037519787
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2037519784}
   m_CullTransparentMesh: 0
 --- !u!1 &2048668582
 GameObject:
@@ -12110,6 +13100,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 573339871}
+  TiposDeConsumiblesDiferentesEnEquipo: 0
+  PocionesMarronesEnEquipo: 0
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 0}
 --- !u!114 &2073030781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12332,6 +13326,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  TiposDeConsumiblesDiferentesEnEquipo: 0
+  PocionesMarronesEnEquipo: 0
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 0}
 --- !u!1 &2087939270
 GameObject:
   m_ObjectHideFlags: 0
@@ -12614,3 +13612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  TiposDeConsumiblesDiferentesEnEquipo: 0
+  PocionesMarronesEnEquipo: 0
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 0}
