@@ -8,7 +8,7 @@ public class MonedasComunes : MonoBehaviour {
 
 
 
-
+    static public int  pocionesRojasEnEquipoB;
    static  public int pocionesMarronesEnEquipoB;
     static public int pocionesRosasEnEquipoB;
 
@@ -66,6 +66,7 @@ public class MonedasComunes : MonoBehaviour {
 
 
     void Update(){
+       pocionesRojasEnEquipoB = Botones.PocionesRojasEnEquipo;
         pocionesRosasEnEquipoB = Botones.PocionesRosasEnEquipo;
         pocionesMarronesEnEquipoB = Botones.PocionesMarronesEnEquipo;
         monedasComunesTotales =Botones.monedas;

@@ -36,6 +36,21 @@ public class Botones : MonoBehaviour
     public GameObject Mochila;
 
 
+    //COMPROBAR POCIONES DIFERENTES EQUIPADAS 
+    public int ComprobarSiTieneEsteTipoDePocionRoja;
+    public int ComprobarSiTieneEsteTipoDePocionEquipadaMarron;//0 sin equipar - 1 equipado
+    public int ComprobarSitieneEsteTipoDePocionEquipadaRosa;
+    public int TiposDePocionesDiferentes;
+
+
+
+
+    //POCIONES ROJAS EN EQUIPO
+    static public int PocionesRojasEnEquipo;
+    public GameObject pocionesRojasEquipadasInterfaz;
+    public Text pocionesRojasEnEquipoText;
+
+
 
     //POCIONES MARRONES  EN EQUIPO
     static public int PocionesMarronesEnEquipo;
@@ -441,6 +456,18 @@ public class Botones : MonoBehaviour
             pocionesRosasEnEquipoText.text = PocionesRosasEnEquipo + " ";
         }
 
+
+        if (PocionesRojasEnEquipo > 0)
+        {
+            pocionesRojasEquipadasInterfaz.SetActive(true);
+           pocionesRojasEnEquipoText.text = " "+ PocionesRojasEnEquipo ;
+
+        }
+        else {
+            pocionesRojasEquipadasInterfaz.SetActive(false);
+            pocionesRojasEnEquipoText.text = " "+PocionesRojasEnEquipo ;
+        }
+
     }
 
 
@@ -451,7 +478,7 @@ public class Botones : MonoBehaviour
     public void EquiparPocionesMarrones()
     {
 
-        if ((ConsumiblesTipo9 > 0) && (PocionesMarronesEnEquipo < 3))
+        if ((ConsumiblesTipo9 > 0) && (PocionesMarronesEnEquipo < 3) && (TiposDePocionesDiferentes < 3))
         {
 
             ConsumiblesTipo9 = ConsumiblesTipo9 - 1;
@@ -486,7 +513,7 @@ public class Botones : MonoBehaviour
     public void EquiparPocionesRosas()
     {
 
-        if ((ConsumiblesTipo10 > 0) && (PocionesRosasEnEquipo < 3))
+        if ((ConsumiblesTipo10 > 0) && (PocionesRosasEnEquipo < 3)&&(TiposDePocionesDiferentes<3))
         {
 
 
@@ -507,6 +534,69 @@ public class Botones : MonoBehaviour
         PocionesRosasEnEquipo = PocionesRosasEnEquipo - 1;
        print ( "pocion rosa usada");
         ActualizarEquipadosEnInterfaz();
+    }
+
+
+
+
+
+    //POCIONES ROJAS
+
+    public void EquiparPocionesRojas()
+    {
+
+        if ((ConsumiblesTipo1 > 0) && (PocionesRosasEnEquipo < 3) && (TiposDePocionesDiferentes < 3))
+        {
+
+            ConsumiblesTipo1 = ConsumiblesTipo1 - 1;
+            PocionesRojasEnEquipo = PocionesRojasEnEquipo + 1;
+
+        }
+        ActualizarEquipadosEnInterfaz();
+    }
+
+
+
+  public   void UsarPocionesRojas() {
+        PocionesRojasEnEquipo = MonedasComunes.pocionesRojasEnEquipoB;
+        PocionesRojasEnEquipo = PocionesRojasEnEquipo - 1;
+        print("pocion roja usada");
+        ActualizarEquipadosEnInterfaz();
+    }
+
+
+
+
+
+
+    void Update() {
+
+        if (PocionesMarronesEnEquipo > 0)
+        {
+            ComprobarSiTieneEsteTipoDePocionEquipadaMarron = 1;
+        } else {
+            ComprobarSiTieneEsteTipoDePocionEquipadaMarron = 0;
+         }
+
+
+        if (PocionesRosasEnEquipo > 0)
+        {
+            ComprobarSitieneEsteTipoDePocionEquipadaRosa = 1;
+        }
+        else {
+            ComprobarSitieneEsteTipoDePocionEquipadaRosa = 0;
+        }
+
+
+        if (PocionesRojasEnEquipo > 0)
+        {
+            ComprobarSiTieneEsteTipoDePocionRoja = 1;
+        }
+        else {
+            ComprobarSiTieneEsteTipoDePocionRoja = 0;
+        }
+
+        TiposDePocionesDiferentes = ComprobarSiTieneEsteTipoDePocionEquipadaMarron+ComprobarSitieneEsteTipoDePocionEquipadaRosa+ComprobarSiTieneEsteTipoDePocionRoja;
     }
 
 
