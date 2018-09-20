@@ -7,11 +7,15 @@ public class MonedasComunes : MonoBehaviour {
 
 
 
-	 
 
 
-	static	public int monedasComunesTotales;
+   static  public int pocionesMarronesEnEquipoB;
+    static public int pocionesRosasEnEquipoB;
+
+    static	public int monedasComunesTotales;
 	public Text MonedasConmunesTexto;
+
+
 
 
 	//inventario de pociones consumibles
@@ -62,7 +66,9 @@ public class MonedasComunes : MonoBehaviour {
 
 
     void Update(){
-		monedasComunesTotales=Botones.monedas;
+        pocionesRosasEnEquipoB = Botones.PocionesRosasEnEquipo;
+        pocionesMarronesEnEquipoB = Botones.PocionesMarronesEnEquipo;
+        monedasComunesTotales =Botones.monedas;
 		MonedasConmunesTexto.text = " " + monedasComunesTotales; 
 		NumeroDeConsumibles1 = Botones.ConsumiblesTipo1;
 		NumeroDeConsumibles2 = Botones.ConsumiblesTipo2;

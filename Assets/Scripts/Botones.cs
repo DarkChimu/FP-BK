@@ -18,8 +18,8 @@ public class Botones : MonoBehaviour
     static public int ConsumiblesTipo6;
     static public int ConsumiblesTipo7;
     static public int ConsumiblesTipo8;
-    static public int ConsumiblesTipo9;
-    static public int ConsumiblesTipo10;
+    static public int ConsumiblesTipo9; //pocion marron
+    static public int ConsumiblesTipo10;//pocion rosa
     static public int ConsumiblesTipo11;
     static public int ConsumiblesTipo12;
     static public int ConsumiblesTipo13;
@@ -31,16 +31,23 @@ public class Botones : MonoBehaviour
     static public int ConsumiblesTipo19;
     static public int ConsumiblesTipo20;
 
+
+
     public GameObject Mochila;
 
-     
-    public int TiposDeConsumiblesDiferentesEnEquipo;
 
-    //POCIONES MARRONES EQUIPO
-    public int PocionesMarronesEnEquipo;
+
+    //POCIONES MARRONES  EN EQUIPO
+    static public int PocionesMarronesEnEquipo;
     public GameObject pocionesMarronesEquipoInterfaz;
     public Text NumeroPocionesMarronesEnInterfaz;
 
+
+
+    //POCIONES ROSAS EN EQUIPO
+    static public int PocionesRosasEnEquipo;
+    public GameObject pocionesRosasEquipoInterfaz;
+    public Text pocionesRosasEnEquipoText;
 
 
     public void AbrirMochila()
@@ -404,40 +411,7 @@ public class Botones : MonoBehaviour
 
 
 
-
-    //EQUIPAR/UTILIZAR POCIONES MARRONES
-
-
-    public void EquiparPocionesMarrones()
-    {
-        if ((ConsumiblesTipo9 > 0) && (PocionesMarronesEnEquipo < 3) && (TiposDeConsumiblesDiferentesEnEquipo < 3))
-        {
-            ConsumiblesTipo9 = ConsumiblesTipo9 - 1;
-            PocionesMarronesEnEquipo = PocionesMarronesEnEquipo + 1;
-
-            if (ConsumiblesTipo9 == 1)
-            {
-                TiposDeConsumiblesDiferentesEnEquipo = TiposDeConsumiblesDiferentesEnEquipo + 1;
-                
-            }
-            ActualizarEquipadosEnInterfaz();
-        }
-    }
-
-
-
-    public void UtilizarPocionMarron()
-    {
-      
-            PocionesMarronesEnEquipo = PocionesMarronesEnEquipo - 1;
-            print("pocion marrron active");
-        
-
-    }
-
-
-
-
+    //ACTUALIZAR CANTIDAD DE ELEMENTOS EN EQUIPO
     void ActualizarEquipadosEnInterfaz()
     {
 
@@ -446,14 +420,100 @@ public class Botones : MonoBehaviour
             pocionesMarronesEquipoInterfaz.SetActive(true);
             NumeroPocionesMarronesEnInterfaz.text = " " + PocionesMarronesEnEquipo;
 
-
         }
-        else {
+        else
+        {
+
             pocionesMarronesEquipoInterfaz.SetActive(false);
             NumeroPocionesMarronesEnInterfaz.text = " " + PocionesMarronesEnEquipo;
         }
+
+
+
+        if (PocionesRosasEnEquipo > 0)
+        {
+            pocionesRosasEquipoInterfaz.SetActive(true);
+            pocionesRosasEnEquipoText.text = PocionesRosasEnEquipo + " ";
+        }
+        else
+        {
+            pocionesRosasEquipoInterfaz.SetActive(false);
+            pocionesRosasEnEquipoText.text = PocionesRosasEnEquipo + " ";
+        }
+
     }
 
+
+
+    //EQUIPAR/UTILIZAR POCIONES MARRONES
+
+
+    public void EquiparPocionesMarrones()
+    {
+
+        if ((ConsumiblesTipo9 > 0) && (PocionesMarronesEnEquipo < 3))
+        {
+
+            ConsumiblesTipo9 = ConsumiblesTipo9 - 1;
+            PocionesMarronesEnEquipo = PocionesMarronesEnEquipo + 1;
+
+            ActualizarEquipadosEnInterfaz();
+        }
+    }
+
+
+
+
+    public void UtilizarPocionMarron()
+    {
+        PocionesMarronesEnEquipo = MonedasComunes.pocionesMarronesEnEquipoB;
+        PocionesMarronesEnEquipo = PocionesMarronesEnEquipo - 1;
+        print(PocionesMarronesEnEquipo);
+        ActualizarEquipadosEnInterfaz();
+
+    }
+
+
+
+
+
+
+
+
+    //POCIONES ROSAS
+
+
+    public void EquiparPocionesRosas()
+    {
+
+        if ((ConsumiblesTipo10 > 0) && (PocionesRosasEnEquipo < 3))
+        {
+
+
+            ConsumiblesTipo10 = ConsumiblesTipo10 - 1;
+            PocionesRosasEnEquipo = PocionesRosasEnEquipo + 1;
+
+
+        }
+        ActualizarEquipadosEnInterfaz();
+    }
+
+
+
+
+    public void UsarPocionesRosas()
+    {
+        PocionesRosasEnEquipo = MonedasComunes.pocionesRosasEnEquipoB;
+        PocionesRosasEnEquipo = PocionesRosasEnEquipo - 1;
+       print ( "pocion rosa usada");
+        ActualizarEquipadosEnInterfaz();
+    }
+
+
+
+
+
+}
 
 
     
@@ -474,4 +534,4 @@ public class Botones : MonoBehaviour
 
 
 
-}
+
