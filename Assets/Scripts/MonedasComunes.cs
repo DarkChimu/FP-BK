@@ -5,9 +5,11 @@ using UnityEngine.UI;
 
 public class MonedasComunes : MonoBehaviour {
 
-
-
-
+    static public int pocionesRosas2EnEquipoB;
+    static public int pocionesNaranjasEnEquipoB;
+    static public int pocionesAzulClaroEnEquipoB;
+    static public int pocionesGrisesEnEquipoB;
+    static public int pocionesAzulOscuroEnEquipoB;
     static public int  pocionesRojasEnEquipoB;
    static  public int pocionesMarronesEnEquipoB;
     static public int pocionesRosasEnEquipoB;
@@ -66,6 +68,11 @@ public class MonedasComunes : MonoBehaviour {
 
 
     void Update(){
+        pocionesRosas2EnEquipoB = Botones.pocionesRosas2enEquipo;
+        pocionesNaranjasEnEquipoB = Botones.pocionesNaranjasEnEquipo;
+        pocionesAzulClaroEnEquipoB = Botones.pocionesAzulClaroEnEquipo;
+        pocionesGrisesEnEquipoB = Botones.pocionesGrisesEnEquipo;
+        pocionesAzulOscuroEnEquipoB = Botones.pocionesAzulOscuroEquipadas;
        pocionesRojasEnEquipoB = Botones.PocionesRojasEnEquipo;
         pocionesRosasEnEquipoB = Botones.PocionesRosasEnEquipo;
         pocionesMarronesEnEquipoB = Botones.PocionesMarronesEnEquipo;

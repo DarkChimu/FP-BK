@@ -533,6 +533,167 @@ MonoBehaviour:
   botonHablarCamarero: {fileID: 0}
   CamareroHablar: {fileID: 1891605862}
   ConsumiblesParaComprar: {fileID: 0}
+--- !u!1 &63659575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 63659576}
+  - component: {fileID: 63659580}
+  - component: {fileID: 63659579}
+  - component: {fileID: 63659578}
+  - component: {fileID: 63659577}
+  m_Layer: 5
+  m_Name: BotonEquipar (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &63659576
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 63659575}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.7939782, y: 0.7939782, z: 0.7939782}
+  m_Children:
+  - {fileID: 896570194}
+  m_Father: {fileID: 1675506192}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -3, y: -42.000008}
+  m_SizeDelta: {x: 102.75, y: 38.28}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &63659577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 63659575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d928b915549f6e40a7b9472cda0955d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
+  ComprobarSiTieneEsteTipoDePocionRoja: 0
+  ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
+  ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
+  TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 2025247594}
+  PocionesRosas2Interfaz: {fileID: 343285983}
+  PocionesNaranjasEnEquipoText: {fileID: 664432716}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 348361240}
+  pocionesAzulClaroEnInterfaz: {fileID: 1997694839}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 836710919}
+  pocionesGrisesEnEquipoText: {fileID: 1636682399}
+  InterfazPocionesGrisesEquipadas: {fileID: 524054346}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 569545474}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 1397575595}
+  pocionesRojasEquipadasInterfaz: {fileID: 2041212670}
+  pocionesRojasEnEquipoText: {fileID: 41155739}
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 2037519786}
+  pocionesRosasEquipoInterfaz: {fileID: 28274075}
+  pocionesRosasEnEquipoText: {fileID: 530505932}
+--- !u!114 &63659578
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 63659575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 63659579}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 63659577}
+        m_MethodName: EquiparPocionRosa2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &63659579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 63659575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &63659580
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 63659575}
+  m_CullTransparentMesh: 0
 --- !u!1 &90807141
 GameObject:
   m_ObjectHideFlags: 0
@@ -601,6 +762,187 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 90807141}
+  m_CullTransparentMesh: 0
+--- !u!1 &105299717
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 105299718}
+  - component: {fileID: 105299723}
+  - component: {fileID: 105299722}
+  - component: {fileID: 105299721}
+  - component: {fileID: 105299720}
+  - component: {fileID: 105299719}
+  m_Layer: 5
+  m_Name: BotonAzulClaritoPocion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &105299718
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 105299717}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 836710918}
+  m_Father: {fileID: 1997694840}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &105299719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 105299717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
+--- !u!114 &105299720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 105299717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d928b915549f6e40a7b9472cda0955d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
+  ComprobarSiTieneEsteTipoDePocionRoja: 0
+  ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
+  ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
+  TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 2025247594}
+  PocionesRosas2Interfaz: {fileID: 343285983}
+  PocionesNaranjasEnEquipoText: {fileID: 664432716}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 348361240}
+  pocionesAzulClaroEnInterfaz: {fileID: 1997694839}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 836710919}
+  pocionesGrisesEnEquipoText: {fileID: 1636682399}
+  InterfazPocionesGrisesEquipadas: {fileID: 524054346}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 569545474}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 1397575595}
+  pocionesRojasEquipadasInterfaz: {fileID: 2041212670}
+  pocionesRojasEnEquipoText: {fileID: 41155739}
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 2037519786}
+  pocionesRosasEquipoInterfaz: {fileID: 28274075}
+  pocionesRosasEnEquipoText: {fileID: 530505932}
+--- !u!114 &105299721
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 105299717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 105299722}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 105299720}
+        m_MethodName: UsarPocionAzulClarito
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &105299722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 105299717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300022, guid: 4ad090d4aa812f348ad4941ec80d9055, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &105299723
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 105299717}
   m_CullTransparentMesh: 0
 --- !u!1 &123724603
 GameObject:
@@ -1326,10 +1668,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 0}
+  PocionesRosas2Interfaz: {fileID: 0}
+  PocionesNaranjasEnEquipoText: {fileID: 0}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 0}
+  pocionesAzulClaroEnInterfaz: {fileID: 0}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 0}
+  pocionesGrisesEnEquipoText: {fileID: 0}
+  InterfazPocionesGrisesEquipadas: {fileID: 0}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 0}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 0}
   pocionesRojasEquipadasInterfaz: {fileID: 0}
   pocionesRojasEnEquipoText: {fileID: 0}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
@@ -1472,10 +1829,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 0}
+  PocionesRosas2Interfaz: {fileID: 0}
+  PocionesNaranjasEnEquipoText: {fileID: 0}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 0}
+  pocionesAzulClaroEnInterfaz: {fileID: 0}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 0}
+  pocionesGrisesEnEquipoText: {fileID: 0}
+  InterfazPocionesGrisesEquipadas: {fileID: 0}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 0}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 0}
   pocionesRojasEquipadasInterfaz: {fileID: 0}
   pocionesRojasEnEquipoText: {fileID: 0}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
@@ -2283,10 +2655,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 0}
+  PocionesRosas2Interfaz: {fileID: 0}
+  PocionesNaranjasEnEquipoText: {fileID: 0}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 0}
+  pocionesAzulClaroEnInterfaz: {fileID: 0}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 0}
+  pocionesGrisesEnEquipoText: {fileID: 0}
+  InterfazPocionesGrisesEquipadas: {fileID: 0}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 0}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 0}
   pocionesRojasEquipadasInterfaz: {fileID: 0}
   pocionesRojasEnEquipoText: {fileID: 0}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
@@ -2429,16 +2816,93 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 0}
+  PocionesRosas2Interfaz: {fileID: 0}
+  PocionesNaranjasEnEquipoText: {fileID: 0}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 0}
+  pocionesAzulClaroEnInterfaz: {fileID: 0}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 0}
+  pocionesGrisesEnEquipoText: {fileID: 0}
+  InterfazPocionesGrisesEquipadas: {fileID: 0}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 0}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 0}
   pocionesRojasEquipadasInterfaz: {fileID: 0}
   pocionesRojasEnEquipoText: {fileID: 0}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
   NumeroPocionesMarronesEnInterfaz: {fileID: 0}
   pocionesRosasEquipoInterfaz: {fileID: 0}
   pocionesRosasEnEquipoText: {fileID: 0}
+--- !u!1 &343285983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 343285986}
+  - component: {fileID: 343285985}
+  - component: {fileID: 343285984}
+  m_Layer: 5
+  m_Name: PocionesRosas2Equipadas (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &343285984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 343285983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
+--- !u!222 &343285985
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 343285983}
+  m_CullTransparentMesh: 0
+--- !u!224 &343285986
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 343285983}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.26907998, y: 0.64315, z: 0.20098999}
+  m_Children:
+  - {fileID: 1169500818}
+  m_Father: {fileID: 760706091}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &344163172
 GameObject:
   m_ObjectHideFlags: 0
@@ -2575,16 +3039,93 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 0}
+  PocionesRosas2Interfaz: {fileID: 0}
+  PocionesNaranjasEnEquipoText: {fileID: 0}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 0}
+  pocionesAzulClaroEnInterfaz: {fileID: 0}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 0}
+  pocionesGrisesEnEquipoText: {fileID: 0}
+  InterfazPocionesGrisesEquipadas: {fileID: 0}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 0}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 0}
   pocionesRojasEquipadasInterfaz: {fileID: 0}
   pocionesRojasEnEquipoText: {fileID: 0}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
   NumeroPocionesMarronesEnInterfaz: {fileID: 0}
   pocionesRosasEquipoInterfaz: {fileID: 0}
   pocionesRosasEnEquipoText: {fileID: 0}
+--- !u!1 &348361240
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 348361243}
+  - component: {fileID: 348361242}
+  - component: {fileID: 348361241}
+  m_Layer: 5
+  m_Name: PocionesNaranjaEquipadas (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &348361241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 348361240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
+--- !u!222 &348361242
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 348361240}
+  m_CullTransparentMesh: 0
+--- !u!224 &348361243
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 348361240}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.26907998, y: 0.64315, z: 0.20098999}
+  m_Children:
+  - {fileID: 743208972}
+  m_Father: {fileID: 760706091}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &357675491
 GameObject:
   m_ObjectHideFlags: 0
@@ -2939,6 +3480,81 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 436652338}
   m_CullTransparentMesh: 0
+--- !u!1 &457500222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 457500223}
+  - component: {fileID: 457500225}
+  - component: {fileID: 457500224}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &457500223
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 457500222}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 614981808}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &457500224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 457500222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Equipar
+--- !u!222 &457500225
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 457500222}
+  m_CullTransparentMesh: 0
 --- !u!1 &463241199
 GameObject:
   m_ObjectHideFlags: 0
@@ -3225,10 +3841,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 0}
+  PocionesRosas2Interfaz: {fileID: 0}
+  PocionesNaranjasEnEquipoText: {fileID: 0}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 0}
+  pocionesAzulClaroEnInterfaz: {fileID: 0}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 0}
+  pocionesGrisesEnEquipoText: {fileID: 0}
+  InterfazPocionesGrisesEquipadas: {fileID: 0}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 0}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 0}
   pocionesRojasEquipadasInterfaz: {fileID: 0}
   pocionesRojasEnEquipoText: {fileID: 0}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
@@ -3286,16 +3917,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 0}
+  PocionesRosas2Interfaz: {fileID: 0}
+  PocionesNaranjasEnEquipoText: {fileID: 664432716}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 348361240}
+  pocionesAzulClaroEnInterfaz: {fileID: 1997694839}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 836710919}
+  pocionesGrisesEnEquipoText: {fileID: 1636682399}
+  InterfazPocionesGrisesEquipadas: {fileID: 524054346}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 569545474}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 1397575595}
   pocionesRojasEquipadasInterfaz: {fileID: 2041212670}
   pocionesRojasEnEquipoText: {fileID: 41155739}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
   NumeroPocionesMarronesEnInterfaz: {fileID: 2037519786}
   pocionesRosasEquipoInterfaz: {fileID: 28274075}
-  pocionesRosasEnEquipoText: {fileID: 2037519786}
+  pocionesRosasEnEquipoText: {fileID: 530505932}
 --- !u!114 &505567395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3476,6 +4122,68 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 507252657}
   m_CullTransparentMesh: 0
+--- !u!1 &524054346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 524054347}
+  - component: {fileID: 524054349}
+  - component: {fileID: 524054348}
+  m_Layer: 5
+  m_Name: PocionesGrisEquipadas (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &524054347
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 524054346}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.26907998, y: 0.64315, z: 0.20098999}
+  m_Children:
+  - {fileID: 794275311}
+  m_Father: {fileID: 760706091}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &524054348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 524054346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
+--- !u!222 &524054349
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 524054346}
+  m_CullTransparentMesh: 0
 --- !u!1 &530505930
 GameObject:
   m_ObjectHideFlags: 0
@@ -3550,6 +4258,81 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 530505930}
+  m_CullTransparentMesh: 0
+--- !u!1 &546827412
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 546827413}
+  - component: {fileID: 546827415}
+  - component: {fileID: 546827414}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &546827413
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 546827412}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2120773507}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &546827414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 546827412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Equipar
+--- !u!222 &546827415
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 546827412}
   m_CullTransparentMesh: 0
 --- !u!1 &547393564
 GameObject:
@@ -3776,6 +4559,81 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 561080273}
   m_CullTransparentMesh: 0
+--- !u!1 &569545472
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 569545473}
+  - component: {fileID: 569545475}
+  - component: {fileID: 569545474}
+  m_Layer: 5
+  m_Name: NumeroPocionesAzulOscuroEquipadasText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &569545473
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 569545472}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.3375, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 623609840}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 111, y: -10.43}
+  m_SizeDelta: {x: 56, y: -2.35}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &569545474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 569545472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Button
+--- !u!222 &569545475
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 569545472}
+  m_CullTransparentMesh: 0
 --- !u!1 &571640059
 GameObject:
   m_ObjectHideFlags: 0
@@ -3994,10 +4852,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 573339871}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 0}
+  PocionesRosas2Interfaz: {fileID: 0}
+  PocionesNaranjasEnEquipoText: {fileID: 0}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 0}
+  pocionesAzulClaroEnInterfaz: {fileID: 0}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 0}
+  pocionesGrisesEnEquipoText: {fileID: 0}
+  InterfazPocionesGrisesEquipadas: {fileID: 0}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 0}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 0}
   pocionesRojasEquipadasInterfaz: {fileID: 0}
   pocionesRojasEnEquipoText: {fileID: 0}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
@@ -4215,16 +5088,373 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 0}
+  PocionesRosas2Interfaz: {fileID: 0}
+  PocionesNaranjasEnEquipoText: {fileID: 0}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 0}
+  pocionesAzulClaroEnInterfaz: {fileID: 0}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 0}
+  pocionesGrisesEnEquipoText: {fileID: 0}
+  InterfazPocionesGrisesEquipadas: {fileID: 0}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 0}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 0}
   pocionesRojasEquipadasInterfaz: {fileID: 0}
   pocionesRojasEnEquipoText: {fileID: 0}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
   NumeroPocionesMarronesEnInterfaz: {fileID: 0}
   pocionesRosasEquipoInterfaz: {fileID: 0}
   pocionesRosasEnEquipoText: {fileID: 0}
+--- !u!1 &614981807
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 614981808}
+  - component: {fileID: 614981812}
+  - component: {fileID: 614981811}
+  - component: {fileID: 614981810}
+  - component: {fileID: 614981809}
+  m_Layer: 5
+  m_Name: BotonEquipar (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &614981808
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 614981807}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.7939782, y: 0.7939782, z: 0.7939782}
+  m_Children:
+  - {fileID: 457500223}
+  m_Father: {fileID: 1000468567}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 2, y: -42}
+  m_SizeDelta: {x: 102.75, y: 38.28}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &614981809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 614981807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d928b915549f6e40a7b9472cda0955d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
+  ComprobarSiTieneEsteTipoDePocionRoja: 0
+  ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
+  ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
+  TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 2025247594}
+  PocionesRosas2Interfaz: {fileID: 343285983}
+  PocionesNaranjasEnEquipoText: {fileID: 664432716}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 348361240}
+  pocionesAzulClaroEnInterfaz: {fileID: 1997694839}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 836710919}
+  pocionesGrisesEnEquipoText: {fileID: 1636682399}
+  InterfazPocionesGrisesEquipadas: {fileID: 524054346}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 569545474}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 1397575595}
+  pocionesRojasEquipadasInterfaz: {fileID: 2041212670}
+  pocionesRojasEnEquipoText: {fileID: 41155739}
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 2037519786}
+  pocionesRosasEquipoInterfaz: {fileID: 28274075}
+  pocionesRosasEnEquipoText: {fileID: 530505932}
+--- !u!114 &614981810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 614981807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 614981811}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 614981809}
+        m_MethodName: EquiparPocionAzulClarito
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &614981811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 614981807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &614981812
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 614981807}
+  m_CullTransparentMesh: 0
+--- !u!1 &623609839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 623609840}
+  - component: {fileID: 623609845}
+  - component: {fileID: 623609844}
+  - component: {fileID: 623609843}
+  - component: {fileID: 623609842}
+  - component: {fileID: 623609841}
+  m_Layer: 5
+  m_Name: BotonActivarPocionAzulOscuro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &623609840
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 623609839}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 569545473}
+  m_Father: {fileID: 1397575596}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &623609841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 623609839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
+--- !u!114 &623609842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 623609839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d928b915549f6e40a7b9472cda0955d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
+  ComprobarSiTieneEsteTipoDePocionRoja: 0
+  ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
+  ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
+  TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 2025247594}
+  PocionesRosas2Interfaz: {fileID: 343285983}
+  PocionesNaranjasEnEquipoText: {fileID: 664432716}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 348361240}
+  pocionesAzulClaroEnInterfaz: {fileID: 1997694839}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 836710919}
+  pocionesGrisesEnEquipoText: {fileID: 1636682399}
+  InterfazPocionesGrisesEquipadas: {fileID: 524054346}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 569545474}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 1397575595}
+  pocionesRojasEquipadasInterfaz: {fileID: 2041212670}
+  pocionesRojasEnEquipoText: {fileID: 41155739}
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 2037519786}
+  pocionesRosasEquipoInterfaz: {fileID: 28274075}
+  pocionesRosasEnEquipoText: {fileID: 530505932}
+--- !u!114 &623609843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 623609839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 623609844}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 623609842}
+        m_MethodName: UsarPocionAzulOscuro
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &623609844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 623609839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300018, guid: 4ad090d4aa812f348ad4941ec80d9055, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &623609845
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 623609839}
+  m_CullTransparentMesh: 0
 --- !u!1 &637264169
 GameObject:
   m_ObjectHideFlags: 0
@@ -4581,10 +5811,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 0}
+  PocionesRosas2Interfaz: {fileID: 0}
+  PocionesNaranjasEnEquipoText: {fileID: 0}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 0}
+  pocionesAzulClaroEnInterfaz: {fileID: 0}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 0}
+  pocionesGrisesEnEquipoText: {fileID: 0}
+  InterfazPocionesGrisesEquipadas: {fileID: 0}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 0}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 0}
   pocionesRojasEquipadasInterfaz: {fileID: 0}
   pocionesRojasEnEquipoText: {fileID: 0}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
@@ -4661,6 +5906,81 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 661526672}
   m_CullTransparentMesh: 0
+--- !u!1 &664432713
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 664432714}
+  - component: {fileID: 664432715}
+  - component: {fileID: 664432716}
+  m_Layer: 5
+  m_Name: NumeroPocionesNaranjaEquipadasText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &664432714
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 664432713}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.3375, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 743208972}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 111, y: -10.43}
+  m_SizeDelta: {x: 56, y: -2.35}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &664432715
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 664432713}
+  m_CullTransparentMesh: 0
+--- !u!114 &664432716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 664432713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Button
 --- !u!1 &675831813
 GameObject:
   m_ObjectHideFlags: 0
@@ -5382,6 +6702,187 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 737115209}
   m_CullTransparentMesh: 0
+--- !u!1 &743208971
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 743208972}
+  - component: {fileID: 743208977}
+  - component: {fileID: 743208976}
+  - component: {fileID: 743208975}
+  - component: {fileID: 743208974}
+  - component: {fileID: 743208973}
+  m_Layer: 5
+  m_Name: BotonNaranjaPocion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &743208972
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 743208971}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 664432714}
+  m_Father: {fileID: 348361243}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &743208973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 743208971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
+--- !u!114 &743208974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 743208971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d928b915549f6e40a7b9472cda0955d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
+  ComprobarSiTieneEsteTipoDePocionRoja: 0
+  ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
+  ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
+  TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 2025247594}
+  PocionesRosas2Interfaz: {fileID: 343285983}
+  PocionesNaranjasEnEquipoText: {fileID: 664432716}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 348361240}
+  pocionesAzulClaroEnInterfaz: {fileID: 1997694839}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 836710919}
+  pocionesGrisesEnEquipoText: {fileID: 1636682399}
+  InterfazPocionesGrisesEquipadas: {fileID: 524054346}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 569545474}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 1397575595}
+  pocionesRojasEquipadasInterfaz: {fileID: 2041212670}
+  pocionesRojasEnEquipoText: {fileID: 41155739}
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 2037519786}
+  pocionesRosasEquipoInterfaz: {fileID: 28274075}
+  pocionesRosasEnEquipoText: {fileID: 530505932}
+--- !u!114 &743208975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 743208971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 743208976}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 743208974}
+        m_MethodName: UsarPocionNaranja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &743208976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 743208971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300024, guid: 4ad090d4aa812f348ad4941ec80d9055, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &743208977
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 743208971}
+  m_CullTransparentMesh: 0
 --- !u!1 &760706090
 GameObject:
   m_ObjectHideFlags: 0
@@ -5411,6 +6912,11 @@ RectTransform:
   - {fileID: 1684046554}
   - {fileID: 28274076}
   - {fileID: 2041212671}
+  - {fileID: 1397575596}
+  - {fileID: 524054347}
+  - {fileID: 1997694840}
+  - {fileID: 348361243}
+  - {fileID: 343285986}
   m_Father: {fileID: 1582314966}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5667,6 +7173,187 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 0
+--- !u!1 &794275310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 794275311}
+  - component: {fileID: 794275316}
+  - component: {fileID: 794275315}
+  - component: {fileID: 794275314}
+  - component: {fileID: 794275313}
+  - component: {fileID: 794275312}
+  m_Layer: 5
+  m_Name: BotonGrisPocionGris
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &794275311
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 794275310}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1636682398}
+  m_Father: {fileID: 524054347}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &794275312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 794275310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
+--- !u!114 &794275313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 794275310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d928b915549f6e40a7b9472cda0955d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
+  ComprobarSiTieneEsteTipoDePocionRoja: 0
+  ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
+  ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
+  TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 2025247594}
+  PocionesRosas2Interfaz: {fileID: 343285983}
+  PocionesNaranjasEnEquipoText: {fileID: 664432716}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 348361240}
+  pocionesAzulClaroEnInterfaz: {fileID: 1997694839}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 836710919}
+  pocionesGrisesEnEquipoText: {fileID: 1636682399}
+  InterfazPocionesGrisesEquipadas: {fileID: 524054346}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 569545474}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 1397575595}
+  pocionesRojasEquipadasInterfaz: {fileID: 2041212670}
+  pocionesRojasEnEquipoText: {fileID: 41155739}
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 2037519786}
+  pocionesRosasEquipoInterfaz: {fileID: 28274075}
+  pocionesRosasEnEquipoText: {fileID: 530505932}
+--- !u!114 &794275314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 794275310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 794275315}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 794275313}
+        m_MethodName: UsarPocionGris
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &794275315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 794275310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300020, guid: 4ad090d4aa812f348ad4941ec80d9055, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &794275316
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 794275310}
+  m_CullTransparentMesh: 0
 --- !u!1 &794450945
 GameObject:
   m_ObjectHideFlags: 0
@@ -5961,6 +7648,81 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 803963550}
   m_CullTransparentMesh: 0
+--- !u!1 &836710917
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 836710918}
+  - component: {fileID: 836710920}
+  - component: {fileID: 836710919}
+  m_Layer: 5
+  m_Name: NumeroPocionesAzulClaritoEquipadasText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &836710918
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 836710917}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.3375, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 105299718}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 111, y: -10.43}
+  m_SizeDelta: {x: 56, y: -2.35}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &836710919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 836710917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Button
+--- !u!222 &836710920
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 836710917}
+  m_CullTransparentMesh: 0
 --- !u!1 &852862731
 GameObject:
   m_ObjectHideFlags: 0
@@ -5989,6 +7751,7 @@ RectTransform:
   m_LocalScale: {x: 0.57392, y: 0.57392, z: 0.57392}
   m_Children:
   - {fileID: 170966877}
+  - {fileID: 936258185}
   m_Father: {fileID: 573339872}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6167,10 +7930,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 0}
+  PocionesRosas2Interfaz: {fileID: 0}
+  PocionesNaranjasEnEquipoText: {fileID: 0}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 0}
+  pocionesAzulClaroEnInterfaz: {fileID: 0}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 0}
+  pocionesGrisesEnEquipoText: {fileID: 0}
+  InterfazPocionesGrisesEquipadas: {fileID: 0}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 0}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 0}
   pocionesRojasEquipadasInterfaz: {fileID: 0}
   pocionesRojasEnEquipoText: {fileID: 0}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
@@ -6534,16 +8312,267 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 0}
+  PocionesRosas2Interfaz: {fileID: 0}
+  PocionesNaranjasEnEquipoText: {fileID: 0}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 0}
+  pocionesAzulClaroEnInterfaz: {fileID: 0}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 0}
+  pocionesGrisesEnEquipoText: {fileID: 0}
+  InterfazPocionesGrisesEquipadas: {fileID: 0}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 0}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 0}
   pocionesRojasEquipadasInterfaz: {fileID: 0}
   pocionesRojasEnEquipoText: {fileID: 0}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
   NumeroPocionesMarronesEnInterfaz: {fileID: 0}
   pocionesRosasEquipoInterfaz: {fileID: 0}
   pocionesRosasEnEquipoText: {fileID: 0}
+--- !u!1 &896570193
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 896570194}
+  - component: {fileID: 896570196}
+  - component: {fileID: 896570195}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &896570194
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 896570193}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 63659576}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &896570195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 896570193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Equipar
+--- !u!222 &896570196
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 896570193}
+  m_CullTransparentMesh: 0
+--- !u!1 &936258184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 936258185}
+  - component: {fileID: 936258189}
+  - component: {fileID: 936258188}
+  - component: {fileID: 936258187}
+  - component: {fileID: 936258186}
+  m_Layer: 5
+  m_Name: BotonEquipar (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &936258185
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 936258184}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.7939782, y: 0.7939782, z: 0.7939782}
+  m_Children:
+  - {fileID: 2081219648}
+  m_Father: {fileID: 852862732}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 2, y: -41}
+  m_SizeDelta: {x: 102.75, y: 38.28}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &936258186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 936258184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d928b915549f6e40a7b9472cda0955d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
+  ComprobarSiTieneEsteTipoDePocionRoja: 0
+  ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
+  ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
+  TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 2025247594}
+  PocionesRosas2Interfaz: {fileID: 343285983}
+  PocionesNaranjasEnEquipoText: {fileID: 664432716}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 348361240}
+  pocionesAzulClaroEnInterfaz: {fileID: 1997694839}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 836710919}
+  pocionesGrisesEnEquipoText: {fileID: 1636682399}
+  InterfazPocionesGrisesEquipadas: {fileID: 524054346}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 569545474}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 1397575595}
+  pocionesRojasEquipadasInterfaz: {fileID: 2041212670}
+  pocionesRojasEnEquipoText: {fileID: 41155739}
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 2037519786}
+  pocionesRosasEquipoInterfaz: {fileID: 28274075}
+  pocionesRosasEnEquipoText: {fileID: 530505932}
+--- !u!114 &936258187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 936258184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 936258188}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 936258186}
+        m_MethodName: EquiparPocionGris
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &936258188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 936258184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &936258189
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 936258184}
+  m_CullTransparentMesh: 0
 --- !u!1 &957697230
 GameObject:
   m_ObjectHideFlags: 0
@@ -7007,6 +9036,7 @@ RectTransform:
   m_LocalScale: {x: 0.57392, y: 0.57392, z: 0.57392}
   m_Children:
   - {fileID: 696115517}
+  - {fileID: 614981808}
   m_Father: {fileID: 573339872}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7185,10 +9215,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 0}
+  PocionesRosas2Interfaz: {fileID: 0}
+  PocionesNaranjasEnEquipoText: {fileID: 0}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 0}
+  pocionesAzulClaroEnInterfaz: {fileID: 0}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 0}
+  pocionesGrisesEnEquipoText: {fileID: 0}
+  InterfazPocionesGrisesEquipadas: {fileID: 0}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 0}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 0}
   pocionesRojasEquipadasInterfaz: {fileID: 0}
   pocionesRojasEnEquipoText: {fileID: 0}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
@@ -7391,10 +9436,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 2025247594}
+  PocionesRosas2Interfaz: {fileID: 343285983}
+  PocionesNaranjasEnEquipoText: {fileID: 664432716}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 348361240}
+  pocionesAzulClaroEnInterfaz: {fileID: 1997694839}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 836710919}
+  pocionesGrisesEnEquipoText: {fileID: 1636682399}
+  InterfazPocionesGrisesEquipadas: {fileID: 524054346}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 569545474}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 1397575595}
   pocionesRojasEquipadasInterfaz: {fileID: 2041212670}
   pocionesRojasEnEquipoText: {fileID: 41155739}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
@@ -7737,10 +9797,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 0}
+  PocionesRosas2Interfaz: {fileID: 0}
+  PocionesNaranjasEnEquipoText: {fileID: 0}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 0}
+  pocionesAzulClaroEnInterfaz: {fileID: 0}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 0}
+  pocionesGrisesEnEquipoText: {fileID: 0}
+  InterfazPocionesGrisesEquipadas: {fileID: 0}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 0}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 0}
   pocionesRojasEquipadasInterfaz: {fileID: 0}
   pocionesRojasEnEquipoText: {fileID: 0}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
@@ -7947,14 +10022,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 2025247594}
+  PocionesRosas2Interfaz: {fileID: 343285983}
+  PocionesNaranjasEnEquipoText: {fileID: 664432716}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 348361240}
+  pocionesAzulClaroEnInterfaz: {fileID: 1997694839}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 836710919}
+  pocionesGrisesEnEquipoText: {fileID: 1636682399}
+  InterfazPocionesGrisesEquipadas: {fileID: 524054346}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 569545474}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 1397575595}
   pocionesRojasEquipadasInterfaz: {fileID: 2041212670}
   pocionesRojasEnEquipoText: {fileID: 41155739}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
-  NumeroPocionesMarronesEnInterfaz: {fileID: 530505932}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 2037519786}
   pocionesRosasEquipoInterfaz: {fileID: 28274075}
   pocionesRosasEnEquipoText: {fileID: 530505932}
 --- !u!114 &1117220915
@@ -8179,10 +10269,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 0}
+  PocionesRosas2Interfaz: {fileID: 0}
+  PocionesNaranjasEnEquipoText: {fileID: 0}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 0}
+  pocionesAzulClaroEnInterfaz: {fileID: 0}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 0}
+  pocionesGrisesEnEquipoText: {fileID: 0}
+  InterfazPocionesGrisesEquipadas: {fileID: 0}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 0}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 0}
   pocionesRojasEquipadasInterfaz: {fileID: 0}
   pocionesRojasEnEquipoText: {fileID: 0}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
@@ -8434,6 +10539,187 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
+--- !u!1 &1169500817
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1169500818}
+  - component: {fileID: 1169500823}
+  - component: {fileID: 1169500822}
+  - component: {fileID: 1169500821}
+  - component: {fileID: 1169500820}
+  - component: {fileID: 1169500819}
+  m_Layer: 5
+  m_Name: BotonRosas2Pocion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1169500818
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1169500817}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2025247592}
+  m_Father: {fileID: 343285986}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1169500819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1169500817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
+--- !u!114 &1169500820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1169500817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d928b915549f6e40a7b9472cda0955d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
+  ComprobarSiTieneEsteTipoDePocionRoja: 0
+  ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
+  ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
+  TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 2025247594}
+  PocionesRosas2Interfaz: {fileID: 343285983}
+  PocionesNaranjasEnEquipoText: {fileID: 664432716}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 348361240}
+  pocionesAzulClaroEnInterfaz: {fileID: 1997694839}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 836710919}
+  pocionesGrisesEnEquipoText: {fileID: 1636682399}
+  InterfazPocionesGrisesEquipadas: {fileID: 524054346}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 569545474}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 1397575595}
+  pocionesRojasEquipadasInterfaz: {fileID: 2041212670}
+  pocionesRojasEnEquipoText: {fileID: 41155739}
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 2037519786}
+  pocionesRosasEquipoInterfaz: {fileID: 28274075}
+  pocionesRosasEnEquipoText: {fileID: 530505932}
+--- !u!114 &1169500821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1169500817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1169500822}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1169500820}
+        m_MethodName: UsarPocionRosa2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1169500822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1169500817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300026, guid: 4ad090d4aa812f348ad4941ec80d9055, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1169500823
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1169500817}
+  m_CullTransparentMesh: 0
 --- !u!1 &1175651162
 GameObject:
   m_ObjectHideFlags: 0
@@ -8509,6 +10795,81 @@ RectTransform:
   m_AnchoredPosition: {x: 150, y: -57}
   m_SizeDelta: {x: 191.6, y: 59.2}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1180243201
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1180243202}
+  - component: {fileID: 1180243204}
+  - component: {fileID: 1180243203}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1180243202
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1180243201}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1929835610}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1180243203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1180243201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Equipar
+--- !u!222 &1180243204
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1180243201}
+  m_CullTransparentMesh: 0
 --- !u!1001 &1191224116
 Prefab:
   m_ObjectHideFlags: 0
@@ -8717,10 +11078,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 0}
+  PocionesRosas2Interfaz: {fileID: 0}
+  PocionesNaranjasEnEquipoText: {fileID: 0}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 0}
+  pocionesAzulClaroEnInterfaz: {fileID: 0}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 0}
+  pocionesGrisesEnEquipoText: {fileID: 0}
+  InterfazPocionesGrisesEquipadas: {fileID: 0}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 0}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 0}
   pocionesRojasEquipadasInterfaz: {fileID: 0}
   pocionesRojasEnEquipoText: {fileID: 0}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
@@ -9572,10 +11948,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 2025247594}
+  PocionesRosas2Interfaz: {fileID: 343285983}
+  PocionesNaranjasEnEquipoText: {fileID: 664432716}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 348361240}
+  pocionesAzulClaroEnInterfaz: {fileID: 1997694839}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 836710919}
+  pocionesGrisesEnEquipoText: {fileID: 1636682399}
+  InterfazPocionesGrisesEquipadas: {fileID: 524054346}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 569545474}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 1397575595}
   pocionesRojasEquipadasInterfaz: {fileID: 2041212670}
   pocionesRojasEnEquipoText: {fileID: 41155739}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
@@ -9814,6 +12205,68 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1383229321}
+  m_CullTransparentMesh: 0
+--- !u!1 &1397575595
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1397575596}
+  - component: {fileID: 1397575598}
+  - component: {fileID: 1397575597}
+  m_Layer: 5
+  m_Name: PocionesAzulOscuroEquipadas (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1397575596
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1397575595}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.26907998, y: 0.64315, z: 0.20098999}
+  m_Children:
+  - {fileID: 623609840}
+  m_Father: {fileID: 760706091}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1397575597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1397575595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
+--- !u!222 &1397575598
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1397575595}
   m_CullTransparentMesh: 0
 --- !u!1 &1400396810
 GameObject:
@@ -10388,6 +12841,7 @@ RectTransform:
   m_LocalScale: {x: 0.57392, y: 0.57392, z: 0.57392}
   m_Children:
   - {fileID: 27226225}
+  - {fileID: 2120773507}
   m_Father: {fileID: 573339872}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11076,10 +13530,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 2025247594}
+  PocionesRosas2Interfaz: {fileID: 343285983}
+  PocionesNaranjasEnEquipoText: {fileID: 664432716}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 348361240}
+  pocionesAzulClaroEnInterfaz: {fileID: 1997694839}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 836710919}
+  pocionesGrisesEnEquipoText: {fileID: 1636682399}
+  InterfazPocionesGrisesEquipadas: {fileID: 524054346}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 569545474}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 1397575595}
   pocionesRojasEquipadasInterfaz: {fileID: 2041212670}
   pocionesRojasEnEquipoText: {fileID: 41155739}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
@@ -11394,12 +13863,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 573339871}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
-  pocionesRojasEquipadasInterfaz: {fileID: 0}
-  pocionesRojasEnEquipoText: {fileID: 0}
+  pocionesRosas2EnInterfazText: {fileID: 2025247594}
+  PocionesRosas2Interfaz: {fileID: 343285983}
+  PocionesNaranjasEnEquipoText: {fileID: 664432716}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 348361240}
+  pocionesAzulClaroEnInterfaz: {fileID: 1997694839}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 836710919}
+  pocionesGrisesEnEquipoText: {fileID: 1636682399}
+  InterfazPocionesGrisesEquipadas: {fileID: 524054346}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 1587298336}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 1397575595}
+  pocionesRojasEquipadasInterfaz: {fileID: 2041212670}
+  pocionesRojasEnEquipoText: {fileID: 41155739}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
   NumeroPocionesMarronesEnInterfaz: {fileID: 2037519786}
   pocionesRosasEquipoInterfaz: {fileID: 28274075}
@@ -11776,10 +14260,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 0}
+  PocionesRosas2Interfaz: {fileID: 0}
+  PocionesNaranjasEnEquipoText: {fileID: 0}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 0}
+  pocionesAzulClaroEnInterfaz: {fileID: 0}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 0}
+  pocionesGrisesEnEquipoText: {fileID: 0}
+  InterfazPocionesGrisesEquipadas: {fileID: 0}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 0}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 0}
   pocionesRojasEquipadasInterfaz: {fileID: 0}
   pocionesRojasEnEquipoText: {fileID: 0}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
@@ -11814,6 +14313,7 @@ RectTransform:
   m_LocalScale: {x: 0.57392, y: 0.57392, z: 0.57392}
   m_Children:
   - {fileID: 1587298338}
+  - {fileID: 1929835610}
   m_Father: {fileID: 573339872}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11992,16 +14492,106 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 0}
+  PocionesRosas2Interfaz: {fileID: 0}
+  PocionesNaranjasEnEquipoText: {fileID: 0}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 0}
+  pocionesAzulClaroEnInterfaz: {fileID: 0}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 0}
+  pocionesGrisesEnEquipoText: {fileID: 0}
+  InterfazPocionesGrisesEquipadas: {fileID: 0}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 0}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 0}
   pocionesRojasEquipadasInterfaz: {fileID: 0}
   pocionesRojasEnEquipoText: {fileID: 0}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
   NumeroPocionesMarronesEnInterfaz: {fileID: 0}
   pocionesRosasEquipoInterfaz: {fileID: 0}
   pocionesRosasEnEquipoText: {fileID: 0}
+--- !u!1 &1636682397
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1636682398}
+  - component: {fileID: 1636682400}
+  - component: {fileID: 1636682399}
+  m_Layer: 5
+  m_Name: NumeroPocionesGrisEquipadasText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1636682398
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1636682397}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.3375, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 794275311}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 111, y: -10.43}
+  m_SizeDelta: {x: 56, y: -2.35}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1636682399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1636682397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Button
+--- !u!222 &1636682400
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1636682397}
+  m_CullTransparentMesh: 0
 --- !u!1 &1638268394
 GameObject:
   m_ObjectHideFlags: 0
@@ -12422,10 +15012,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 0}
+  PocionesRosas2Interfaz: {fileID: 0}
+  PocionesNaranjasEnEquipoText: {fileID: 0}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 0}
+  pocionesAzulClaroEnInterfaz: {fileID: 0}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 0}
+  pocionesGrisesEnEquipoText: {fileID: 0}
+  InterfazPocionesGrisesEquipadas: {fileID: 0}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 0}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 0}
   pocionesRojasEquipadasInterfaz: {fileID: 0}
   pocionesRojasEnEquipoText: {fileID: 0}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
@@ -12460,6 +15065,7 @@ RectTransform:
   m_LocalScale: {x: 0.57392, y: 0.57392, z: 0.57392}
   m_Children:
   - {fileID: 656087562}
+  - {fileID: 63659576}
   m_Father: {fileID: 573339872}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -12638,10 +15244,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 0}
+  PocionesRosas2Interfaz: {fileID: 0}
+  PocionesNaranjasEnEquipoText: {fileID: 0}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 0}
+  pocionesAzulClaroEnInterfaz: {fileID: 0}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 0}
+  pocionesGrisesEnEquipoText: {fileID: 0}
+  InterfazPocionesGrisesEquipadas: {fileID: 0}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 0}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 0}
   pocionesRojasEquipadasInterfaz: {fileID: 0}
   pocionesRojasEnEquipoText: {fileID: 0}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
@@ -13638,6 +16259,167 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1914739067}
   m_CullTransparentMesh: 0
+--- !u!1 &1929835609
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1929835610}
+  - component: {fileID: 1929835614}
+  - component: {fileID: 1929835613}
+  - component: {fileID: 1929835612}
+  - component: {fileID: 1929835611}
+  m_Layer: 5
+  m_Name: BotonEquipar (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1929835610
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1929835609}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.7939782, y: 0.7939782, z: 0.7939782}
+  m_Children:
+  - {fileID: 1180243202}
+  m_Father: {fileID: 1594665146}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -2, y: -40.700012}
+  m_SizeDelta: {x: 102.75, y: 38.28}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1929835611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1929835609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d928b915549f6e40a7b9472cda0955d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
+  ComprobarSiTieneEsteTipoDePocionRoja: 0
+  ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
+  ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
+  TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 2025247594}
+  PocionesRosas2Interfaz: {fileID: 343285983}
+  PocionesNaranjasEnEquipoText: {fileID: 664432716}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 348361240}
+  pocionesAzulClaroEnInterfaz: {fileID: 1997694839}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 836710919}
+  pocionesGrisesEnEquipoText: {fileID: 1636682399}
+  InterfazPocionesGrisesEquipadas: {fileID: 524054346}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 569545474}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 1397575595}
+  pocionesRojasEquipadasInterfaz: {fileID: 2041212670}
+  pocionesRojasEnEquipoText: {fileID: 41155739}
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 2037519786}
+  pocionesRosasEquipoInterfaz: {fileID: 28274075}
+  pocionesRosasEnEquipoText: {fileID: 530505932}
+--- !u!114 &1929835612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1929835609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1929835613}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1929835611}
+        m_MethodName: EquiparPocionAzulOscuro
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1929835613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1929835609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1929835614
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1929835609}
+  m_CullTransparentMesh: 0
 --- !u!1 &1968311486
 GameObject:
   m_ObjectHideFlags: 0
@@ -13713,6 +16495,143 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1968311486}
   m_CullTransparentMesh: 0
+--- !u!1 &1997694839
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1997694840}
+  - component: {fileID: 1997694842}
+  - component: {fileID: 1997694841}
+  m_Layer: 5
+  m_Name: PocionesAzulClaritoEquipadas (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1997694840
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1997694839}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.26907998, y: 0.64315, z: 0.20098999}
+  m_Children:
+  - {fileID: 105299718}
+  m_Father: {fileID: 760706091}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 50, y: -50}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1997694841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1997694839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: -1
+  m_PreferredWidth: -1
+  m_PreferredHeight: -1
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
+  m_LayoutPriority: 1
+--- !u!222 &1997694842
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1997694839}
+  m_CullTransparentMesh: 0
+--- !u!1 &2025247591
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2025247592}
+  - component: {fileID: 2025247593}
+  - component: {fileID: 2025247594}
+  m_Layer: 5
+  m_Name: NumeroPocionesRosas2EquipadasText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2025247592
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2025247591}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.3375, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1169500818}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 111, y: -10.43}
+  m_SizeDelta: {x: 56, y: -2.35}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &2025247593
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2025247591}
+  m_CullTransparentMesh: 0
+--- !u!114 &2025247594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2025247591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Button
 --- !u!1 &2037519784
 GameObject:
   m_ObjectHideFlags: 0
@@ -14117,16 +17036,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 2025247594}
+  PocionesRosas2Interfaz: {fileID: 343285983}
+  PocionesNaranjasEnEquipoText: {fileID: 664432716}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 348361240}
+  pocionesAzulClaroEnInterfaz: {fileID: 1997694839}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 836710919}
+  pocionesGrisesEnEquipoText: {fileID: 1636682399}
+  InterfazPocionesGrisesEquipadas: {fileID: 524054346}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 569545474}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 1397575595}
   pocionesRojasEquipadasInterfaz: {fileID: 2041212670}
   pocionesRojasEnEquipoText: {fileID: 41155739}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
-  NumeroPocionesMarronesEnInterfaz: {fileID: 41155739}
-  pocionesRosasEquipoInterfaz: {fileID: 2041212670}
-  pocionesRosasEnEquipoText: {fileID: 41155739}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 463241200}
+  pocionesRosasEquipoInterfaz: {fileID: 28274075}
+  pocionesRosasEnEquipoText: {fileID: 530505932}
 --- !u!114 &2057895699
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14263,10 +17197,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 573339871}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 0}
+  PocionesRosas2Interfaz: {fileID: 0}
+  PocionesNaranjasEnEquipoText: {fileID: 0}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 0}
+  pocionesAzulClaroEnInterfaz: {fileID: 0}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 0}
+  pocionesGrisesEnEquipoText: {fileID: 0}
+  InterfazPocionesGrisesEquipadas: {fileID: 0}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 0}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 0}
   pocionesRojasEquipadasInterfaz: {fileID: 0}
   pocionesRojasEnEquipoText: {fileID: 0}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
@@ -14495,16 +17444,106 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 0}
+  PocionesRosas2Interfaz: {fileID: 0}
+  PocionesNaranjasEnEquipoText: {fileID: 0}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 0}
+  pocionesAzulClaroEnInterfaz: {fileID: 0}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 0}
+  pocionesGrisesEnEquipoText: {fileID: 0}
+  InterfazPocionesGrisesEquipadas: {fileID: 0}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 0}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 0}
   pocionesRojasEquipadasInterfaz: {fileID: 0}
   pocionesRojasEnEquipoText: {fileID: 0}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
   NumeroPocionesMarronesEnInterfaz: {fileID: 0}
   pocionesRosasEquipoInterfaz: {fileID: 0}
   pocionesRosasEnEquipoText: {fileID: 0}
+--- !u!1 &2081219647
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2081219648}
+  - component: {fileID: 2081219650}
+  - component: {fileID: 2081219649}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2081219648
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2081219647}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 936258185}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2081219649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2081219647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Equipar
+--- !u!222 &2081219650
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2081219647}
+  m_CullTransparentMesh: 0
 --- !u!1 &2087939270
 GameObject:
   m_ObjectHideFlags: 0
@@ -14651,6 +17690,167 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2094174592}
   m_CullTransparentMesh: 0
+--- !u!1 &2120773506
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2120773507}
+  - component: {fileID: 2120773511}
+  - component: {fileID: 2120773510}
+  - component: {fileID: 2120773509}
+  - component: {fileID: 2120773508}
+  m_Layer: 5
+  m_Name: BotonEquipar (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2120773507
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2120773506}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.7939782, y: 0.7939782, z: 0.7939782}
+  m_Children:
+  - {fileID: 546827413}
+  m_Father: {fileID: 1447654063}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1, y: -42.000008}
+  m_SizeDelta: {x: 102.75, y: 38.28}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2120773508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2120773506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d928b915549f6e40a7b9472cda0955d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
+  ComprobarSiTieneEsteTipoDePocionRoja: 0
+  ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
+  ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
+  TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 2025247594}
+  PocionesRosas2Interfaz: {fileID: 343285983}
+  PocionesNaranjasEnEquipoText: {fileID: 664432716}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 348361240}
+  pocionesAzulClaroEnInterfaz: {fileID: 1997694839}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 836710919}
+  pocionesGrisesEnEquipoText: {fileID: 1636682399}
+  InterfazPocionesGrisesEquipadas: {fileID: 524054346}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 569545474}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 1397575595}
+  pocionesRojasEquipadasInterfaz: {fileID: 2041212670}
+  pocionesRojasEnEquipoText: {fileID: 41155739}
+  pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
+  NumeroPocionesMarronesEnInterfaz: {fileID: 2037519786}
+  pocionesRosasEquipoInterfaz: {fileID: 28274075}
+  pocionesRosasEnEquipoText: {fileID: 530505932}
+--- !u!114 &2120773509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2120773506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 2120773510}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2120773508}
+        m_MethodName: EquiparPocionNaranja
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &2120773510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2120773506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &2120773511
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2120773506}
+  m_CullTransparentMesh: 0
 --- !u!1 &2124558012
 GameObject:
   m_ObjectHideFlags: 0
@@ -14787,10 +17987,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mochila: {fileID: 0}
+  ComprobarPocionesRosas2EnEquipo: 0
+  ComprobarPocionesNaranjasEnEquipo: 0
+  ComprobarPocionesAzulesClaroEnEquipo: 0
+  ComprobarPocionesGrisesEnEquipo: 0
+  ComprobarSiTieneEsteTipoDePocionAzulOscuro: 0
   ComprobarSiTieneEsteTipoDePocionRoja: 0
   ComprobarSiTieneEsteTipoDePocionEquipadaMarron: 0
   ComprobarSitieneEsteTipoDePocionEquipadaRosa: 0
   TiposDePocionesDiferentes: 0
+  pocionesRosas2EnInterfazText: {fileID: 0}
+  PocionesRosas2Interfaz: {fileID: 0}
+  PocionesNaranjasEnEquipoText: {fileID: 0}
+  PocionesNaranjaEquipadasInterfaz: {fileID: 0}
+  pocionesAzulClaroEnInterfaz: {fileID: 0}
+  numeroPocionesAzulesClaritaEquipadasText: {fileID: 0}
+  pocionesGrisesEnEquipoText: {fileID: 0}
+  InterfazPocionesGrisesEquipadas: {fileID: 0}
+  numeroPocionesAzulOscuroEquipadasText: {fileID: 0}
+  InterfazEquipoPocionesAzulOscuro: {fileID: 0}
   pocionesRojasEquipadasInterfaz: {fileID: 0}
   pocionesRojasEnEquipoText: {fileID: 0}
   pocionesMarronesEquipoInterfaz: {fileID: 1684046553}
