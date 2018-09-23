@@ -12,24 +12,24 @@ public class Botones : MonoBehaviour
 
     static public int ConsumiblesTipo1;
     static public int ConsumiblesTipo2;//pocion Rosas2
-    static public int ConsumiblesTipo3;
-    static public int ConsumiblesTipo4;
-    static public int ConsumiblesTipo5;
+    static public int ConsumiblesTipo3;//pociones Rojas2
+    static public int ConsumiblesTipo4;//pocion azul oscuro2
+    static public int ConsumiblesTipo5;//pocion azul claro2
     static public int ConsumiblesTipo6;//pociones naranjas
-    static public int ConsumiblesTipo7;
-    static public int ConsumiblesTipo8;
+    static public int ConsumiblesTipo7;//pocion amarilla redonda
+    static public int ConsumiblesTipo8;//pociones verdes
     static public int ConsumiblesTipo9; //pocion marron
     static public int ConsumiblesTipo10;//pocion rosa
-    static public int ConsumiblesTipo11;
-    static public int ConsumiblesTipo12;
-    static public int ConsumiblesTipo13;
-    static public int ConsumiblesTipo14;
+    static public int ConsumiblesTipo11;//pocion amarilla
+    static public int ConsumiblesTipo12;//pocion roja mini
+    static public int ConsumiblesTipo13;//pocion azul mini
+    static public int ConsumiblesTipo14;//pocion amarilla mini
     static public int ConsumiblesTipo15;//pocion azul oscuro
     static public int ConsumiblesTipo16;//pocion gris
     static public int ConsumiblesTipo17;//pocion azul claro
-    static public int ConsumiblesTipo18;
-    static public int ConsumiblesTipo19;
-    static public int ConsumiblesTipo20;
+    static public int ConsumiblesTipo18;//pocion roja grande
+    static public int ConsumiblesTipo19;//pocion azul grande
+    static public int ConsumiblesTipo20;//pocion amarilla grande
 
 
 
@@ -37,6 +37,18 @@ public class Botones : MonoBehaviour
 
 
     //COMPROBAR POCIONES DIFERENTES EQUIPADAS
+    public int ComprobarPocionesAmarillaRedondaEnEquipo;
+    public int ComprobarPocionesAzulClaro2EnEquipo;
+    public int ComprobarPocionesVerdesEnEquipo;
+    public int ComprobarPocionesAmarilloGrandeEnEquipo;
+    public int ComprobarPocionesAzulGrandeEnEquipo;
+    public int ComprobarPocionesRojaGrandeEnEquipo;
+    public int ComprobarPocionesAmarillaMiniEnEquipo;
+    public int ComprobarPocionesAzulMiniEnEquipo;
+    public int ComprobarPocionesRojaMiniEnEquipo;
+    public int ComprobarPocionesAmarillasEnEquipo;
+    public int ComprobarPocionesAzulOscuro2EnEquipo;
+    public int ComprobarPocionesRojas2EnEquipo;
     public int ComprobarPocionesRosas2EnEquipo;
     public int ComprobarPocionesNaranjasEnEquipo;
     public int ComprobarPocionesAzulesClaroEnEquipo;
@@ -46,6 +58,72 @@ public class Botones : MonoBehaviour
     public int ComprobarSiTieneEsteTipoDePocionEquipadaMarron;//0 sin equipar - 1 equipado
     public int ComprobarSitieneEsteTipoDePocionEquipadaRosa;
     public int TiposDePocionesDiferentes;
+
+
+
+
+    //POCIONES AMARILLA REDONDA 
+    static public int pocionesAmarillaRedondaEnEquipo;
+    public Text pocionesAmarilaRedondaEnInterfazText;
+    public GameObject PocionesAmarillaRedondaInterfaz;
+
+    //POCIONES AZUL CLARO2
+    static public int pocionesAzulClaro2EnEquipo;
+    public Text pocionesAzulClaro2EnInterfazText;
+    public GameObject PocionesAzulClaro2Interfaz;
+
+    //POCIONES VERDES
+    static public int pocionesVerdesEnEquipo;
+    public Text pocionesVerdesEnInterfazText;
+    public GameObject PocionesVerdesInterfaz;
+
+    //POCIONES AMARILLAS   GRANDE
+    static public int pocionesAmarillasGrandeEquipo;
+    public Text pocionesAmarillasGrandeEnInterfazText;
+    public GameObject PocionesAmarillasGrandeInterfaz;
+
+    //POCIONES AZUL GRANDE
+    static public int pocionesAzulGrandeEquipo;
+    public Text pocionesAzulGrandeEnInterfazText;
+    public GameObject PocionesAzulGrandeInterfaz;
+
+
+    //POCIONES ROJA GRANDE
+    static public int pocionesRojaGrandeEquipo;
+    public Text pocionesRojaGrandeEnInterfazText;
+    public GameObject PocionesRojaGrandeInterfaz;
+
+    //POCIONES AMARILLA MINI
+    static public int pocionesAmarillaMiniEquipo;
+    public Text pocionesAmarillaMiniEnInterfazText;
+    public GameObject PocionesAmarillaMiniInterfaz;
+
+    //POCIONES AZUL MINI
+    static public int pocionesAzulMiniEquipo;
+    public Text pocionesAzulMiniEnInterfazText;
+    public GameObject PocionesAzulMiniInterfaz;
+
+    //POCIONES ROJA MINI
+    static public int pocionesRojaMiniEquipo;
+    public Text pocionesRojaMiniEnInterfazText;
+    public GameObject PocionesRojaMiniInterfaz;
+
+
+    //POCIONES AMARILLAS 
+    static public int pocionesAmarillasEquipo;
+    public Text pocionesAmarillasEnInterfazText;
+    public GameObject PocionesAmarillasInterfaz;
+
+
+    //POCIONES AZUL OSCURO2
+    static public int pocionesAzulOscuro2Equipo;
+    public Text pocionesAzulOscuro2EnInterfazText;
+    public GameObject PocionesAzulOScuro2Interfaz;
+
+    //POCIONES ROJAS2 EN EQUIPO
+    static  public int pocionesRojas2EnEquipo;
+    public Text pocionesRojas2EnInterfazText;
+    public GameObject PocionesRojas2Interfaz;
 
 
     //POCIONES ROSAS2 EN EQUIPO
@@ -639,8 +717,377 @@ public class Botones : MonoBehaviour
 
 
 
-        //ACTUALIZAR CANTIDAD DE ELEMENTOS EN EQUIPO
-        void ActualizarEquipadosEnInterfaz()
+
+    //EQUIPAR/UTILIZAR POCIONES ROJAS2
+ 
+    public void EquiparPocionRoja2()
+    {
+
+        ComprobarCuantasPocionesDiferentesTengoEquipadas();
+
+        if (((ConsumiblesTipo3 > 0) && (pocionesRojas2EnEquipo < 3) && (TiposDePocionesDiferentes < 3)) ||
+           ((TiposDePocionesDiferentes == 3) && (ComprobarPocionesRojas2EnEquipo == 1) && (pocionesRojas2EnEquipo < 3)))
+        {
+
+            ConsumiblesTipo3 = ConsumiblesTipo3 - 1;
+          pocionesRojas2EnEquipo = pocionesRojas2EnEquipo + 1;
+
+        }
+        else
+        {
+            print("Ya tienes equipados el maximo numero de tipos de pociones o ya tienes la cantidad maxima (3) de estas ");
+        }
+        ActualizarEquipadosEnInterfaz();
+    }
+
+    public void UsarPocionRoja2() {
+       pocionesRojas2EnEquipo = MonedasComunes.pocionesRojas2EnEquipoB;
+        pocionesRojas2EnEquipo = pocionesRojas2EnEquipo - 1;
+        print("pocion roja2 usada");
+        ActualizarEquipadosEnInterfaz();
+    }
+
+
+    //EQUIPAR/UTILIZAR POCIONES AZUL OSCURO2
+
+    public void EquiparPocionAzulOscuro2() {
+        ComprobarCuantasPocionesDiferentesTengoEquipadas();
+
+        if (((ConsumiblesTipo4 > 0) && (pocionesAzulOscuro2Equipo < 3) && (TiposDePocionesDiferentes < 3)) ||
+           ((TiposDePocionesDiferentes == 3) && (ComprobarPocionesAzulOscuro2EnEquipo == 1) && (pocionesAzulOscuro2Equipo < 3)))
+        {
+
+            ConsumiblesTipo4= ConsumiblesTipo4 - 1;
+            pocionesAzulOscuro2Equipo = pocionesAzulOscuro2Equipo + 1;
+
+        }
+        else
+        {
+            print("Ya tienes equipados el maximo numero de tipos de pociones o ya tienes la cantidad maxima (3) de estas ");
+        }
+        ActualizarEquipadosEnInterfaz();
+    }
+
+
+    public void UsarPocionAzulOscuro2()
+    {
+        pocionesAzulOscuro2Equipo = MonedasComunes.pocionesAzulOscuro2EnEquipoB;
+        pocionesAzulOscuro2Equipo = pocionesAzulOscuro2Equipo - 1;
+        print("pocion azul oscuro2 usada");
+        ActualizarEquipadosEnInterfaz();
+    }
+
+
+    //POCION AMARILLA
+    public void EquiparPocionAmarilla()
+    {
+        ComprobarCuantasPocionesDiferentesTengoEquipadas();
+
+        if (((ConsumiblesTipo11 > 0) && (pocionesAmarillasEquipo < 3) && (TiposDePocionesDiferentes < 3)) ||
+           ((TiposDePocionesDiferentes == 3) && (ComprobarPocionesAmarillasEnEquipo == 1) && (pocionesAmarillasEquipo < 3)))
+        {
+
+            ConsumiblesTipo11 = ConsumiblesTipo11 - 1;
+           pocionesAmarillasEquipo = pocionesAmarillasEquipo + 1;
+
+        }
+        else
+        {
+            print("Ya tienes equipados el maximo numero de tipos de pociones o ya tienes la cantidad maxima (3) de estas ");
+        }
+        ActualizarEquipadosEnInterfaz();
+    }
+
+
+
+    public void UsarPocionesAmarillas()
+    {
+       pocionesAmarillasEquipo = MonedasComunes.pocionesAmarillasEnEquipoB;
+       pocionesAmarillasEquipo= pocionesAmarillasEquipo - 1;
+        print("pocion amarilla usada");
+        ActualizarEquipadosEnInterfaz();
+    }
+
+
+    //POCIONES ROJAS MINI
+    public void EquiparPocionRojaMini()
+    {
+        ComprobarCuantasPocionesDiferentesTengoEquipadas();
+
+        if (((ConsumiblesTipo12 > 0) && (pocionesRojaMiniEquipo < 3) && (TiposDePocionesDiferentes < 3)) ||
+           ((TiposDePocionesDiferentes == 3) && (ComprobarPocionesRojaMiniEnEquipo == 1) && (pocionesRojaMiniEquipo < 3)))
+        {
+
+            ConsumiblesTipo12 = ConsumiblesTipo12 - 1;
+            pocionesRojaMiniEquipo = pocionesRojaMiniEquipo + 1;
+
+        }
+        else
+        {
+            print("Ya tienes equipados el maximo numero de tipos de pociones o ya tienes la cantidad maxima (3) de estas ");
+        }
+        ActualizarEquipadosEnInterfaz();
+    }
+
+    public void UsarPocionesRojasMini()
+    {
+       pocionesRojaMiniEquipo = MonedasComunes.pocionesRoasMiniEnEquipoB;
+    pocionesRojaMiniEquipo = pocionesRojaMiniEquipo - 1;
+        print("pocion roja mini usada");
+        ActualizarEquipadosEnInterfaz();
+    }
+
+
+
+    //EQUIPAR/UTILIZAR POCION AZUL MINI
+    public void EquiparPocionAzulMini()
+    {
+        ComprobarCuantasPocionesDiferentesTengoEquipadas();
+
+        if (((ConsumiblesTipo13 > 0) && (pocionesAzulMiniEquipo < 3) && (TiposDePocionesDiferentes < 3)) ||
+           ((TiposDePocionesDiferentes == 3) && (ComprobarPocionesAzulMiniEnEquipo == 1) && (pocionesAzulMiniEquipo < 3)))
+        {
+
+            ConsumiblesTipo13 = ConsumiblesTipo13 - 1;
+            pocionesAzulMiniEquipo = pocionesAzulMiniEquipo + 1;
+
+        }
+        else
+        {
+            print("Ya tienes equipados el maximo numero de tipos de pociones o ya tienes la cantidad maxima (3) de estas ");
+        }
+        ActualizarEquipadosEnInterfaz();
+    }
+
+
+
+    public void UsarPocionesAzulMini()
+    {
+        pocionesAzulMiniEquipo = MonedasComunes.pocionesAzulMiniEnEquipoB;
+        pocionesAzulMiniEquipo = pocionesAzulMiniEquipo - 1;
+        print("pocion azul mini usada");
+        ActualizarEquipadosEnInterfaz();
+    }
+
+    //EQUIPAR/UTILIZAR POCION AMARILLA MINI
+    public void EquiparPocionAmarillaMini()
+    {
+        ComprobarCuantasPocionesDiferentesTengoEquipadas();
+
+        if (((ConsumiblesTipo14 > 0) && (pocionesAmarillaMiniEquipo < 3) && (TiposDePocionesDiferentes < 3)) ||
+           ((TiposDePocionesDiferentes == 3) && (ComprobarPocionesAmarillaMiniEnEquipo == 1) && (pocionesAmarillaMiniEquipo < 3)))
+        {
+
+            ConsumiblesTipo14 = ConsumiblesTipo14 - 1;
+            pocionesAmarillaMiniEquipo = pocionesAmarillaMiniEquipo + 1;
+
+        }
+        else
+        {
+            print("Ya tienes equipados el maximo numero de tipos de pociones o ya tienes la cantidad maxima (3) de estas ");
+        }
+        ActualizarEquipadosEnInterfaz();
+    }
+
+
+    public void UsarPocionesAmarillaMini()
+    {
+       pocionesAmarillaMiniEquipo = MonedasComunes.pocionesAmarillaMiniEnEquipoB;
+        pocionesAmarillaMiniEquipo = pocionesAmarillaMiniEquipo - 1;
+        print("pocion amarilla mini usada");
+        ActualizarEquipadosEnInterfaz();
+    }
+
+
+
+    //EQUIPAR/UTILIZAR POCION ROJA GRANDE
+    public void EquiparPocionRojaGrande()
+    {
+        ComprobarCuantasPocionesDiferentesTengoEquipadas();
+
+        if (((ConsumiblesTipo18 > 0) && (pocionesRojaGrandeEquipo < 3) && (TiposDePocionesDiferentes < 3)) ||
+           ((TiposDePocionesDiferentes == 3) && (ComprobarPocionesRojaGrandeEnEquipo == 1) && (pocionesRojaGrandeEquipo < 3)))
+        {
+
+            ConsumiblesTipo18 = ConsumiblesTipo18 - 1;
+            pocionesRojaGrandeEquipo = pocionesRojaGrandeEquipo + 1;
+
+        }
+        else
+        {
+            print("Ya tienes equipados el maximo numero de tipos de pociones o ya tienes la cantidad maxima (3) de estas ");
+        }
+        ActualizarEquipadosEnInterfaz();
+    }
+
+
+    public void UsarPocionesRojaGrande()
+    {
+        pocionesRojaGrandeEquipo = MonedasComunes.pocionesRojaGrandeEnEquipoB;
+        pocionesRojaGrandeEquipo = pocionesRojaGrandeEquipo - 1;
+        print("pocion roja grande usada");
+        ActualizarEquipadosEnInterfaz();
+    }
+
+
+
+    //EQUIPAR/UTILIZAR POCION AZUL GRANDE 
+    public void EquiparPocionAzulGrande()
+    {
+        ComprobarCuantasPocionesDiferentesTengoEquipadas();
+
+        if (((ConsumiblesTipo19 > 0) && (pocionesAzulGrandeEquipo < 3) && (TiposDePocionesDiferentes < 3)) ||
+           ((TiposDePocionesDiferentes == 3) && (ComprobarPocionesAzulGrandeEnEquipo == 1) && (pocionesAzulGrandeEquipo < 3)))
+        {
+
+            ConsumiblesTipo19 = ConsumiblesTipo19 - 1;
+            pocionesAzulGrandeEquipo = pocionesAzulGrandeEquipo + 1;
+
+        }
+        else
+        {
+            print("Ya tienes equipados el maximo numero de tipos de pociones o ya tienes la cantidad maxima (3) de estas ");
+        }
+        ActualizarEquipadosEnInterfaz();
+    }
+
+    public void UsarPocionesAzulGrande()
+    {
+        pocionesAzulGrandeEquipo = MonedasComunes.pocionesAzulGrandeEnEquipoB;
+        pocionesAzulGrandeEquipo = pocionesAzulGrandeEquipo - 1;
+        print("pocion azul grande usada");
+        ActualizarEquipadosEnInterfaz();
+    }
+
+
+
+    //EQUIPAR/UTILIZAR POCION GRANDE AMARILLA 
+    public void EquiparPocionAmarillaGrande()
+    {
+        ComprobarCuantasPocionesDiferentesTengoEquipadas();
+
+        if (((ConsumiblesTipo20 > 0) && (pocionesAmarillasGrandeEquipo < 3) && (TiposDePocionesDiferentes < 3)) ||
+           ((TiposDePocionesDiferentes == 3) && (ComprobarPocionesAmarilloGrandeEnEquipo == 1) && (pocionesAmarillasGrandeEquipo < 3)))
+        {
+
+            ConsumiblesTipo20 = ConsumiblesTipo20 - 1;
+            pocionesAmarillasGrandeEquipo = pocionesAmarillasGrandeEquipo + 1;
+
+        }
+        else
+        {
+            print("Ya tienes equipados el maximo numero de tipos de pociones o ya tienes la cantidad maxima (3) de estas ");
+        }
+        ActualizarEquipadosEnInterfaz();
+    }
+
+    public void UsarPocionesAmarillaGrande()
+    {
+       pocionesAmarillasGrandeEquipo = MonedasComunes.pocionesAmarillaGrandeEnEquipoB;
+        pocionesAmarillasGrandeEquipo = pocionesAmarillasGrandeEquipo - 1;
+        print("pocion amarilla grande usada");
+        ActualizarEquipadosEnInterfaz();
+    }
+
+
+
+
+    //EQUIPAR/GASTAR POCIONES VERDES
+    public void EquiparPocionesVerdes()
+    {
+        ComprobarCuantasPocionesDiferentesTengoEquipadas();
+
+        if (((ConsumiblesTipo8 > 0) && (pocionesVerdesEnEquipo < 3) && (TiposDePocionesDiferentes < 3)) ||
+           ((TiposDePocionesDiferentes == 3) && (ComprobarPocionesVerdesEnEquipo == 1) && (pocionesVerdesEnEquipo < 3)))
+        {
+
+            ConsumiblesTipo8 = ConsumiblesTipo8 - 1;
+          pocionesVerdesEnEquipo = pocionesVerdesEnEquipo + 1;
+
+        }
+        else
+        {
+            print("Ya tienes equipados el maximo numero de tipos de pociones o ya tienes la cantidad maxima (3) de estas ");
+        }
+        ActualizarEquipadosEnInterfaz();
+    }
+
+    public void UsarPocionVerde()
+    {
+        pocionesVerdesEnEquipo = MonedasComunes.pocionesVerdeEnEquipoB;
+        pocionesVerdesEnEquipo = pocionesVerdesEnEquipo - 1;
+        print("pocion verde usada");
+        ActualizarEquipadosEnInterfaz();
+    }
+
+
+
+
+    //POCION AZUL CLARO2
+    public void EquiparPocionAzulClaro2()
+    {
+        ComprobarCuantasPocionesDiferentesTengoEquipadas();
+
+        if (((ConsumiblesTipo5 > 0) && (pocionesAzulClaro2EnEquipo < 3) && (TiposDePocionesDiferentes < 3)) ||
+           ((TiposDePocionesDiferentes == 3) && (ComprobarPocionesAzulClaro2EnEquipo == 1) && (pocionesAzulClaro2EnEquipo < 3)))
+        {
+
+            ConsumiblesTipo5 = ConsumiblesTipo5 - 1;
+            pocionesAzulClaro2EnEquipo = pocionesAzulClaro2EnEquipo + 1;
+
+        }
+        else
+        {
+            print("Ya tienes equipados el maximo numero de tipos de pociones o ya tienes la cantidad maxima (3) de estas ");
+        }
+        ActualizarEquipadosEnInterfaz();
+    }
+
+
+    public void UsarPocionAzulClaro2()
+    {
+        pocionesAzulClaro2EnEquipo = MonedasComunes.pocionesAzulClaro2EnEquipoB;
+        pocionesAzulClaro2EnEquipo = pocionesAzulClaro2EnEquipo - 1;
+        print("pocion  azul claro2 usada");
+        ActualizarEquipadosEnInterfaz();
+    }
+
+
+
+    //POCION AMARILLA REDONDA
+    public void EquiparPocionAmarillaRedonda()
+    {
+        ComprobarCuantasPocionesDiferentesTengoEquipadas();
+
+        if (((ConsumiblesTipo7 > 0) && (pocionesAmarillaRedondaEnEquipo< 3) && (TiposDePocionesDiferentes < 3)) ||
+           ((TiposDePocionesDiferentes == 3) && (ComprobarPocionesAmarillaRedondaEnEquipo == 1) && (pocionesAmarillaRedondaEnEquipo < 3)))
+        {
+
+            ConsumiblesTipo7 = ConsumiblesTipo7 - 1;
+            pocionesAmarillaRedondaEnEquipo = pocionesAmarillaRedondaEnEquipo + 1;
+
+        }
+        else
+        {
+            print("Ya tienes equipados el maximo numero de tipos de pociones o ya tienes la cantidad maxima (3) de estas ");
+        }
+        ActualizarEquipadosEnInterfaz();
+    }
+
+
+    public void UsarPocionAmarillaRedonda()
+    {
+       pocionesAmarillaRedondaEnEquipo = MonedasComunes.pocionesAmarillaRedondaEnEquipoB;
+        pocionesAmarillaRedondaEnEquipo = pocionesAmarillaRedondaEnEquipo - 1;
+        print("pocion  amarilla redonda usada");
+        ActualizarEquipadosEnInterfaz();
+    }
+
+
+
+
+    //ACTUALIZAR CANTIDAD DE ELEMENTOS EN EQUIPO
+    void ActualizarEquipadosEnInterfaz()
     {
 
         if (PocionesMarronesEnEquipo > 0)
@@ -741,15 +1188,134 @@ public class Botones : MonoBehaviour
             pocionesRosas2EnInterfazText.text = pocionesRosas2enEquipo + " ";
         }
 
+        if (pocionesRojas2EnEquipo > 0)
+        {
+            PocionesRojas2Interfaz.SetActive(true);
+            pocionesRojas2EnInterfazText.text = " " + pocionesRojas2EnEquipo;
+        }
+        else {
+            PocionesRojas2Interfaz.SetActive(false);
+            pocionesRojas2EnInterfazText.text = " " + pocionesRojas2EnEquipo;
+        }
+
+
+        if (pocionesAzulOscuro2Equipo > 0)
+        {
+            PocionesAzulOScuro2Interfaz.SetActive(true);
+          pocionesAzulOscuro2EnInterfazText.text = " " + pocionesAzulOscuro2Equipo;
+        }
+        else {
+            PocionesAzulOScuro2Interfaz.SetActive(false);
+            pocionesAzulOscuro2EnInterfazText.text = " " + pocionesAzulOscuro2Equipo;
+        }
+
+        if (pocionesAmarillasEquipo > 0)
+        {
+            PocionesAmarillasInterfaz.SetActive(true);
+            pocionesAmarillasEnInterfazText.text = " " + pocionesAmarillasEquipo;
+        }
+        else {
+            PocionesAmarillasInterfaz.SetActive(false);
+            pocionesAmarillasEnInterfazText.text = " " + pocionesAmarillasEquipo;
+        }
+
+        if (pocionesRojaMiniEquipo > 0)
+        {
+            PocionesRojaMiniInterfaz.SetActive(true);
+            pocionesRojaMiniEnInterfazText.text = " " + pocionesRojaMiniEquipo;
+        }
+        else {
+            PocionesRojaMiniInterfaz.SetActive(false);
+            pocionesRojaMiniEnInterfazText.text = " " + pocionesRojaMiniEquipo;
+        }
+        if (pocionesAzulMiniEquipo > 0)
+        {
+            PocionesAzulMiniInterfaz.SetActive(true);
+            pocionesAzulMiniEnInterfazText.text = " " + pocionesAzulMiniEquipo;
+        }
+        else {
+
+            PocionesAzulMiniInterfaz.SetActive(false);
+            pocionesAzulMiniEnInterfazText.text = " " + pocionesAzulMiniEquipo;
+        }
+
+
+        if (pocionesAmarillaMiniEquipo > 0)
+        {
+            PocionesAmarillaMiniInterfaz.SetActive(true);
+            pocionesAmarillaMiniEnInterfazText.text = pocionesAmarillaMiniEquipo + " ";
+
+        }
+        else {
+            PocionesAmarillaMiniInterfaz.SetActive(false);
+            pocionesAmarillaMiniEnInterfazText.text = pocionesAmarillaMiniEquipo + " ";
+        }
+
+        if (pocionesRojaGrandeEquipo > 0)
+        {
+            PocionesRojaGrandeInterfaz.SetActive(true);
+            pocionesRojaGrandeEnInterfazText.text = " " + pocionesRojaGrandeEquipo;
+        }
+        else {
+            PocionesRojaGrandeInterfaz.SetActive(false);
+            pocionesRojaGrandeEnInterfazText.text = " " + pocionesRojaGrandeEquipo;
+        }
+
+        if (pocionesAzulGrandeEquipo > 0)
+        {
+            PocionesAzulGrandeInterfaz.SetActive(true);
+          pocionesAzulGrandeEnInterfazText.text = " " + pocionesAzulGrandeEquipo;
+        }
+        else
+        {
+            PocionesAzulGrandeInterfaz.SetActive(false);
+            pocionesAzulGrandeEnInterfazText.text = " " + pocionesAzulGrandeEquipo; ;
+        }
+
+        if (pocionesAmarillasGrandeEquipo > 0)
+        {
+            PocionesAmarillasGrandeInterfaz.SetActive(true);
+            pocionesAmarillasGrandeEnInterfazText.text = " " + pocionesAmarillasGrandeEquipo;
+        }
+        else {
+            PocionesAmarillasGrandeInterfaz.SetActive(false);
+            pocionesAmarillasGrandeEnInterfazText.text = " " + pocionesAmarillasGrandeEquipo;
+        }
+
+        if (pocionesVerdesEnEquipo > 0)
+        {
+            PocionesVerdesInterfaz.SetActive(true);
+            pocionesVerdesEnInterfazText.text = " " + pocionesVerdesEnEquipo;
+        }
+        else
+        {
+            PocionesVerdesInterfaz.SetActive(false);
+            pocionesVerdesEnInterfazText.text = " " + pocionesVerdesEnEquipo;
+        }
+
+        if (pocionesAzulClaro2EnEquipo > 0)
+        {
+            PocionesAzulClaro2Interfaz.SetActive(true);
+            pocionesAzulClaro2EnInterfazText.text = " " + pocionesAzulClaro2EnEquipo;
+        }
+        else {
+            PocionesAzulClaro2Interfaz.SetActive(false);
+            pocionesAzulClaro2EnInterfazText.text = " " + pocionesAzulClaro2EnEquipo;
+        }
+
+        if (pocionesAmarillaRedondaEnEquipo > 0)
+        {
+            PocionesAmarillaRedondaInterfaz.SetActive(true);
+            pocionesAmarilaRedondaEnInterfazText.text = " " + pocionesAmarillaRedondaEnEquipo;
+        }
+        else {
+            PocionesAmarillaRedondaInterfaz.SetActive(false);
+            pocionesAmarilaRedondaEnInterfazText.text = " " + pocionesAmarillaRedondaEnEquipo;
+        }
 
     }
 
-
-
-
-
-
-
+  
 
 
     void ComprobarCuantasPocionesDiferentesTengoEquipadas()
@@ -831,11 +1397,132 @@ public class Botones : MonoBehaviour
             ComprobarPocionesRosas2EnEquipo = 0;
         }
 
+        if (pocionesRojas2EnEquipo > 0)
+        {
+            ComprobarPocionesRojas2EnEquipo = 1;
+        }
+        else {
+            ComprobarPocionesRojas2EnEquipo = 0;
+        }
 
-        TiposDePocionesDiferentes = ComprobarSiTieneEsteTipoDePocionEquipadaMarron +
+        if (pocionesAzulOscuro2Equipo > 0)
+        {
+            ComprobarPocionesAzulOscuro2EnEquipo = 1;
+        }
+        else {
+            ComprobarPocionesAzulOscuro2EnEquipo = 0;
+        }
+
+
+        if (pocionesAmarillasEquipo > 0)
+        {
+            ComprobarPocionesAmarillasEnEquipo = 1;
+        }
+        else {
+            ComprobarPocionesAmarillasEnEquipo = 0;
+        }
+
+
+        if (pocionesRojaMiniEquipo > 0)
+        {
+            ComprobarPocionesRojaMiniEnEquipo = 1;
+        }
+        else {
+            ComprobarPocionesRojaMiniEnEquipo = 0;
+        }
+
+
+        if (pocionesAzulMiniEquipo > 0)
+        {
+            ComprobarPocionesAzulMiniEnEquipo = 1;
+        }
+        else {
+            ComprobarPocionesAzulMiniEnEquipo = 0;
+        }
+
+        if (pocionesAmarillaMiniEquipo > 0)
+        {
+            ComprobarPocionesAmarillaMiniEnEquipo = 1;
+            pocionesAmarillaMiniEnInterfazText.text = " " + pocionesAmarillaMiniEquipo;
+        }
+        else {
+            ComprobarPocionesAmarillaMiniEnEquipo = 0;
+            pocionesAmarillaMiniEnInterfazText.text = " " + pocionesAmarillaMiniEquipo;
+        }
+
+        if (pocionesRojaGrandeEquipo > 0)
+        {
+            ComprobarPocionesRojaGrandeEnEquipo = 1;
+           pocionesRojaGrandeEnInterfazText.text = " " + pocionesRojaGrandeEquipo;
+        }
+        else
+        {
+            ComprobarPocionesRojaGrandeEnEquipo = 0;
+            pocionesRojaGrandeEnInterfazText.text = " " + pocionesRojaGrandeEquipo;
+        }
+
+
+        if (pocionesAzulGrandeEquipo > 0)
+        {
+            ComprobarPocionesAzulGrandeEnEquipo = 1;
+           pocionesAzulGrandeEnInterfazText.text = " " + pocionesAzulGrandeEquipo;
+        }
+        else
+        {
+            ComprobarPocionesAzulGrandeEnEquipo = 0;
+            pocionesAzulGrandeEnInterfazText.text = " " + pocionesAzulGrandeEquipo;
+        }
+
+        if (pocionesAmarillasGrandeEquipo > 0)
+        {
+            ComprobarPocionesAmarilloGrandeEnEquipo = 1;
+            pocionesAmarillasGrandeEnInterfazText.text = " " + pocionesAmarillasGrandeEquipo;
+        }
+        else {
+            ComprobarPocionesAmarilloGrandeEnEquipo = 0;
+            pocionesAmarillasGrandeEnInterfazText.text = " " + pocionesAmarillasGrandeEquipo;
+        }
+
+        if (pocionesVerdesEnEquipo> 0)
+        {
+            ComprobarPocionesVerdesEnEquipo = 1;
+            pocionesVerdesEnInterfazText.text = " " + pocionesVerdesEnEquipo;
+        }
+        else
+        {
+            ComprobarPocionesVerdesEnEquipo = 0;
+            pocionesVerdesEnInterfazText.text = " " + pocionesVerdesEnEquipo;
+        }
+
+        if (pocionesAzulClaro2EnEquipo > 0)
+        {
+            ComprobarPocionesAzulClaro2EnEquipo = 1;
+            pocionesAzulClaro2EnInterfazText.text = " " + pocionesAzulClaro2EnEquipo;
+        }
+        else {
+            ComprobarPocionesAzulClaro2EnEquipo = 0;
+            pocionesAzulClaro2EnInterfazText.text = " " + pocionesAzulClaro2EnEquipo;
+        }
+
+        if (pocionesAmarillaRedondaEnEquipo > 0) {
+            ComprobarPocionesAmarillaRedondaEnEquipo = 1;
+           pocionesAmarilaRedondaEnInterfazText.text = " " + pocionesAmarillaRedondaEnEquipo;
+        }
+        else
+        {
+            ComprobarPocionesAmarillaRedondaEnEquipo = 0;
+            pocionesAmarilaRedondaEnInterfazText.text = " " + pocionesAmarillaRedondaEnEquipo;
+        }
+
+
+            TiposDePocionesDiferentes = ComprobarSiTieneEsteTipoDePocionEquipadaMarron +
             ComprobarSitieneEsteTipoDePocionEquipadaRosa + ComprobarSiTieneEsteTipoDePocionRoja +
             ComprobarSiTieneEsteTipoDePocionAzulOscuro + ComprobarPocionesGrisesEnEquipo + ComprobarPocionesAzulesClaroEnEquipo +
-            ComprobarPocionesNaranjasEnEquipo+ComprobarPocionesRosas2EnEquipo;
+            ComprobarPocionesNaranjasEnEquipo+ComprobarPocionesRosas2EnEquipo+ComprobarPocionesRojas2EnEquipo+
+            ComprobarPocionesAzulOscuro2EnEquipo+ComprobarPocionesAmarillasEnEquipo+ComprobarPocionesRojaMiniEnEquipo+
+            ComprobarPocionesAzulMiniEnEquipo + ComprobarPocionesAmarillaMiniEnEquipo + ComprobarPocionesRojaGrandeEnEquipo+
+            ComprobarPocionesAzulGrandeEnEquipo+ComprobarPocionesAmarilloGrandeEnEquipo+ComprobarPocionesVerdesEnEquipo+
+            ComprobarPocionesAzulClaro2EnEquipo+ComprobarPocionesAmarillaRedondaEnEquipo;
     }
 
 

@@ -5,6 +5,19 @@ using UnityEngine.UI;
 
 public class MonedasComunes : MonoBehaviour {
 
+
+    static public int pocionesAmarillaRedondaEnEquipoB;
+    static public int pocionesAzulClaro2EnEquipoB;
+    static public int pocionesVerdeEnEquipoB;
+    static public int pocionesAmarillaGrandeEnEquipoB;
+    static public int pocionesAzulGrandeEnEquipoB;
+    static public int pocionesRojaGrandeEnEquipoB;
+    static public int pocionesAmarillaMiniEnEquipoB;
+    static public int pocionesAzulMiniEnEquipoB;
+    static public int pocionesRoasMiniEnEquipoB;
+    static public int pocionesAmarillasEnEquipoB;
+    static public int pocionesAzulOscuro2EnEquipoB;
+    static public int pocionesRojas2EnEquipoB;
     static public int pocionesRosas2EnEquipoB;
     static public int pocionesNaranjasEnEquipoB;
     static public int pocionesAzulClaroEnEquipoB;
@@ -68,6 +81,18 @@ public class MonedasComunes : MonoBehaviour {
 
 
     void Update(){
+        pocionesAmarillaRedondaEnEquipoB = Botones.pocionesAmarillaRedondaEnEquipo;
+        pocionesAzulClaro2EnEquipoB = Botones.pocionesAzulClaro2EnEquipo;
+         pocionesVerdeEnEquipoB =Botones.pocionesVerdesEnEquipo;
+        pocionesAmarillaGrandeEnEquipoB = Botones.pocionesAmarillasGrandeEquipo;
+        pocionesAzulGrandeEnEquipoB = Botones.pocionesAzulGrandeEquipo;
+       pocionesRojaGrandeEnEquipoB = Botones.pocionesRojaGrandeEquipo;
+        pocionesAmarillaMiniEnEquipoB = Botones.pocionesAmarillaMiniEquipo;
+        pocionesAzulMiniEnEquipoB = Botones.pocionesAzulMiniEquipo;
+        pocionesRoasMiniEnEquipoB = Botones.pocionesRojaMiniEquipo;
+        pocionesAmarillasEnEquipoB = Botones.pocionesAmarillasEquipo;
+      pocionesAzulOscuro2EnEquipoB = Botones.pocionesAzulOscuro2Equipo;
+        pocionesRojas2EnEquipoB = Botones.pocionesRojas2EnEquipo;
         pocionesRosas2EnEquipoB = Botones.pocionesRosas2enEquipo;
         pocionesNaranjasEnEquipoB = Botones.pocionesNaranjasEnEquipo;
         pocionesAzulClaroEnEquipoB = Botones.pocionesAzulClaroEnEquipo;
