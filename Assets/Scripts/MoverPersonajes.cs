@@ -31,7 +31,7 @@ public class MoverPersonajes : MonoBehaviour
     void Start()
     {
         NumeroPersonajeSeleccionadoC = cambiarPersonajeSeleccion.NuneroDePersonajeSeleccionado;
-
+       
 
     }
 

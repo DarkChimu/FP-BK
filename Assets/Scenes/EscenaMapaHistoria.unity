@@ -565,6 +565,36 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114397981625797458, guid: a5f3ea509df833b49a9c2306f10f16cc,
+        type: 2}
+      propertyPath: prefabDruidaPersonaje1
+      value: 
+      objectReference: {fileID: 1392388018228546, guid: 0e8cdf641a6d1564899a1fd264382db3,
+        type: 2}
+    - target: {fileID: 114397981625797458, guid: a5f3ea509df833b49a9c2306f10f16cc,
+        type: 2}
+      propertyPath: prefabCientificoPersonaje2
+      value: 
+      objectReference: {fileID: 1668082892689590, guid: d36724e3a7dd4484398f3c98697fa82b,
+        type: 2}
+    - target: {fileID: 114397981625797458, guid: a5f3ea509df833b49a9c2306f10f16cc,
+        type: 2}
+      propertyPath: prefabMafiosoPersonaje3
+      value: 
+      objectReference: {fileID: 1637207237136068, guid: 0031190e65fb1a142a3e9b0b329ff502,
+        type: 2}
+    - target: {fileID: 114397981625797458, guid: a5f3ea509df833b49a9c2306f10f16cc,
+        type: 2}
+      propertyPath: prefabNaturalezaPersonaje4
+      value: 
+      objectReference: {fileID: 1806118994970124, guid: 868b551f1e665554d9a65c4efbb6c364,
+        type: 2}
+    - target: {fileID: 114397981625797458, guid: a5f3ea509df833b49a9c2306f10f16cc,
+        type: 2}
+      propertyPath: prefabMAgoPersonaje5
+      value: 
+      objectReference: {fileID: 1530951094320580, guid: 01a0f364addd3304bb20dba9d29048cc,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5f3ea509df833b49a9c2306f10f16cc, type: 2}
   m_IsPrefabAsset: 0
@@ -1574,6 +1604,7 @@ MonoBehaviour:
     type: 2}
   personaje3Rigidbody: {fileID: 50808131506783496, guid: 1e52e09b909c795458bff7d86280f31a,
     type: 2}
+  personaje4Rigidbody: {fileID: 0}
   personaje5Rigidbody: {fileID: 50574966336506984, guid: 038e78abb721de64991e801cb753358d,
     type: 2}
 --- !u!1 &1130358404
@@ -1989,6 +2020,61 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1336147214}
   m_CullTransparentMesh: 0
+--- !u!1 &1345095038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1345095040}
+  - component: {fileID: 1345095039}
+  m_Layer: 0
+  m_Name: Scrips
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1345095039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1345095038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44a7d63ee1a3b4f48ba12c7f64694fdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NumeroPersonajeSeleccionadoC: 0
+  MoverArriba: 0
+  MoverAbajo: 0
+  MoverIzquierda: 0
+  MoverDerecha: 0
+  personaje1Rigidbody: {fileID: 50504215860969612, guid: 0e8cdf641a6d1564899a1fd264382db3,
+    type: 2}
+  personaje2Rigidbody: {fileID: 50425235115052116, guid: d36724e3a7dd4484398f3c98697fa82b,
+    type: 2}
+  personaje3Rigidbody: {fileID: 50768278256806082, guid: 0031190e65fb1a142a3e9b0b329ff502,
+    type: 2}
+  personaje4Rigidbody: {fileID: 50651233217421816, guid: 868b551f1e665554d9a65c4efbb6c364,
+    type: 2}
+  personaje5Rigidbody: {fileID: 50734232897432340, guid: 01a0f364addd3304bb20dba9d29048cc,
+    type: 2}
+--- !u!4 &1345095040
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1345095038}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1374108063
 GameObject:
   m_ObjectHideFlags: 0

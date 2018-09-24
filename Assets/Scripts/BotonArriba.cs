@@ -8,9 +8,13 @@ public class BotonArriba : MonoBehaviour,IPointerDownHandler,IPointerUpHandler {
 	static public bool MoverPersonajeSeleccionadoArriba;
 
 
+    void Start()
+    {
+       MoverPersonajeSeleccionadoArriba = false;
+    }
 
 
-	public void OnPointerDown (PointerEventData eventData) {
+    public void OnPointerDown (PointerEventData eventData) {
 		MoverPersonajeSeleccionadoArriba = true;
 	}
 

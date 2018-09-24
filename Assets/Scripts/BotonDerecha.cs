@@ -9,7 +9,13 @@ public class BotonDerecha : MonoBehaviour ,IPointerDownHandler,IPointerUpHandler
 
 	static public bool MoverPersonajeSeleccionadoDerecha;
 
-	public void OnPointerDown (PointerEventData eventData) {
+
+    void Start()
+    {
+       MoverPersonajeSeleccionadoDerecha = false;
+    }
+
+    public void OnPointerDown (PointerEventData eventData) {
 		MoverPersonajeSeleccionadoDerecha = true;
 	}
 

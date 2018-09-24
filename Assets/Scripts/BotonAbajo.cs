@@ -9,6 +9,10 @@ public class BotonAbajo : MonoBehaviour ,IPointerDownHandler,IPointerUpHandler{
 
 	static public bool MoverPersonajeSeleccionadoAbajo;
 
+    void Start() {
+        MoverPersonajeSeleccionadoAbajo = false;
+    }
+
 	public void OnPointerDown (PointerEventData eventData) {
 		MoverPersonajeSeleccionadoAbajo = true;
 	}
