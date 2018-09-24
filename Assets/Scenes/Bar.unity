@@ -1754,7 +1754,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Esta pocion...
+  m_Text: "Man\xE1 grande"
 --- !u!222 &176755287
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2523,7 +2523,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Esta pocion...
+  m_Text: '   Esta pocion te otorga 3 +ATK'
 --- !u!222 &199574557
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5093,7 +5093,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Esta pocion...
+  m_Text: "Man\xE1"
 --- !u!222 &436652341
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5535,7 +5535,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Esta pocion...
+  m_Text: Esta pocion te otorga 1 +Def
 --- !u!222 &470243451
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6311,7 +6311,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Esta pocion...
+  m_Text: "Poci\xF3n de hielo"
 --- !u!222 &547393567
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6386,7 +6386,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Esta pocion...
+  m_Text: "Exp instant\xE1nea"
 --- !u!222 &548040737
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6664,7 +6664,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Esta pocion...
+  m_Text: Vida grande
 --- !u!222 &561080276
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7017,7 +7017,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Esta pocion...
+  m_Text: Stamina grande
 --- !u!222 &571640062
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10489,7 +10489,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Esta pocion...
+  m_Text: "Poci\xF3n ventisca"
 --- !u!222 &786102142
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11075,7 +11075,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Esta pocion...
+  m_Text: Stamina
 --- !u!222 &803963553
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11772,7 +11772,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Esta pocion...
+  m_Text: Esta pocion te otorga 2 +Matk
 --- !u!222 &864709858
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15523,7 +15523,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Esta pocion...
+  m_Text: "Vida peque\xF1a"
 --- !u!222 &1124221792
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17745,7 +17745,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Esta pocion...
+  m_Text: Vida
 --- !u!222 &1302921016
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17820,7 +17820,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Esta pocion...
+  m_Text: "Stamina peque\xF1a"
 --- !u!222 &1318123880
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23231,7 +23231,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Esta pocion...
+  m_Text: "Poci\xF3n oscura o sombra"
 --- !u!222 &1785909067
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23306,7 +23306,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Esta pocion...
+  m_Text: "Poci\xF3n de fuego"
 --- !u!222 &1815090747
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -23329,7 +23329,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1820354313
 RectTransform:
   m_ObjectHideFlags: 0
@@ -23543,7 +23543,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Esta pocion...
+  m_Text: "Man\xE1 peque\xF1o"
 --- !u!222 &1838672329
 CanvasRenderer:
   m_ObjectHideFlags: 0
