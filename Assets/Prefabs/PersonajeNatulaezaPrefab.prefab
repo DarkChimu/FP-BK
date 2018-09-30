@@ -20,7 +20,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4806246412405638}
   - component: {fileID: 212316890451103246}
-  - component: {fileID: 114942131808117356}
   - component: {fileID: 50419424101604346}
   - component: {fileID: 61819777111472986}
   - component: {fileID: 114035715077771300}
@@ -100,27 +99,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b265d8ccaa60234b87b28c025436d7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defensaBase4: 30
-  AtaqueBase4: 20
-  ataqueMagico4: 20
-  VelocidadAtaque4: 0.4
   Personaje4colisionandoConElEnemigo: 0
---- !u!114 &114942131808117356
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1765537563931584}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 152596f681d00b446938e374f3487910, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MoverPErsonaje4Arriba: 0
-  MoverPErsonaje4Abajo: 0
-  MoverPErsonaje4Izquierda: 0
-  MoverPErsonaje4Derecha: 0
-  personaje4Rigidbody: {fileID: 50419424101604346}
 --- !u!212 &212316890451103246
 SpriteRenderer:
   m_ObjectHideFlags: 1

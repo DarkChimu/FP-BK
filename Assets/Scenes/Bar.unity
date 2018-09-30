@@ -23034,7 +23034,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1768493979}
   - component: {fileID: 1768493978}
-  - component: {fileID: 1768493977}
   - component: {fileID: 1768493976}
   - component: {fileID: 1768493975}
   m_Layer: 0
@@ -23091,18 +23090,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &1768493977
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 114248588775621086, guid: d06fda1bce477ad4c814e8d6ca2f7bb1,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1768493974}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1768493978
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -23367,7 +23354,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -20, y: 15.858032}
+  m_AnchoredPosition: {x: -20, y: 15.858016}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1820354314
@@ -23782,7 +23769,6 @@ GameObject:
   - component: {fileID: 1869430044}
   - component: {fileID: 1869430046}
   - component: {fileID: 1869430045}
-  - component: {fileID: 1869430047}
   m_Layer: 5
   m_Name: PocionMarronImage
   m_TagString: Untagged
@@ -23844,17 +23830,6 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1869430043}
   m_CullTransparentMesh: 0
---- !u!114 &1869430047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1869430043}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 311f0339bdedd76498741f573beded9a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1882999590
 GameObject:
   m_ObjectHideFlags: 0
